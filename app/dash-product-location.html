@@ -1,0 +1,3167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../cdn.tailwind/cdn.tailwindcss.com.3.4.5.js"></script>
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- header and nav -->
+    <header class="bg-white shadow-lg">
+      <div
+        class="container flex items-center justify-between px-6 py-4 mx-auto"
+      >
+        <!-- Logo -->
+        <div class="text-2xl font-bold text-gray-800">
+          <a href="#">YourLogo</a>
+        </div>
+
+        <!-- Navigation Links (Hidden on Mobile) -->
+        <nav class="hidden space-x-6 md:flex">
+          <a href="#" class="py-1 text-gray-600 hover:text-gray-900">Home</a>
+          <a href="#" class="py-1 text-gray-600 hover:text-gray-900">About</a>
+          <a href="#" class="py-1 text-gray-600 hover:text-gray-900"
+            >Services</a
+          >
+          <a href="#" class="py-1 text-gray-600 hover:text-gray-900">Contact</a>
+        </nav>
+
+        <!-- Register, Login, Logout -->
+        <div>
+          <button
+            class="inline-flex items-center px-3 py-1 text-base bg-gray-100 border-0 rounded focus:outline-none hover:bg-gray-200"
+          >
+            LogIn
+
+            <!-- <button class="inline-flex items-center px-3 py-1 mt-4 text-base bg-gray-100 border-0 rounded focus:outline-none hover:bg-gray-200 md:mt-0">Button -->
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-1"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+          <button
+            class="inline-flex items-center px-3 py-1 text-base text-white bg-blue-600 border-0 rounded focus:outline-none hover:bg-blue-200 hover:text-gray-900"
+          >
+            Register
+
+            <!-- <button class="inline-flex items-center px-3 py-1 mt-4 text-base bg-gray-100 border-0 rounded focus:outline-none hover:bg-gray-200 md:mt-0">Button -->
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-1"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="flex items-center md:hidden">
+          <button
+            id="mobile-menu-button"
+            class="text-gray-800 focus:outline-none"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu (Hidden by Default) -->
+      <div id="mobile-menu" class="hidden md:hidden">
+        <nav class="px-2 pt-2 pb-4 space-y-1">
+          <a
+            href="#"
+            class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:bg-gray-100"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:bg-gray-100"
+            >About</a
+          >
+          <a
+            href="#"
+            class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:bg-gray-100"
+            >Services</a
+          >
+          <a
+            href="#"
+            class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:bg-gray-100"
+            >Contact</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <!-- Statistical data -->
+    <section class="text-gray-600">
+      <div class="container px-5 py-8 mx-auto">
+        <!-- Company -->
+        <div class="flex flex-col w-full mb-20 text-center">
+          <div class="flex items-center justify-between p-6 bg-white shadow">
+            <div class="text-left">
+              <h1 class="text-xl font-bold">Welcome Fara Fara Oil & Gas</h1>
+              <p class="text-gray-500">Email: admin@farafa.com</p>
+              <p class="text-gray-500">
+                Address: 123 nowhere avenue, kano state, Nigeria
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Statistics -->
+        <div class="flex flex-wrap m-4 text-center">
+          <div class="w-full p-4 md:w-1/4 sm:w-1/2">
+            <div class="px-4 py-6 border-2 border-gray-200 rounded-lg">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="inline-block w-12 h-12 mb-3 text-blue-500"
+                viewBox="0 0 24 24"
+              >
+                <path d="M8 17l4 4 4-4m-4-5v9"></path>
+                <path
+                  d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"
+                ></path>
+              </svg>
+              <h2 class="text-3xl font-medium text-gray-900 title-font">
+                2.7K
+              </h2>
+              <p class="leading-relaxed">Downloads</p>
+            </div>
+          </div>
+          <div class="w-full p-4 md:w-1/4 sm:w-1/2">
+            <div class="px-4 py-6 border-2 border-gray-200 rounded-lg">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="inline-block w-12 h-12 mb-3 text-blue-500"
+                viewBox="0 0 24 24"
+              >
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+              </svg>
+              <h2 class="text-3xl font-medium text-gray-900 title-font">
+                1.3K
+              </h2>
+              <p class="leading-relaxed">Users</p>
+            </div>
+          </div>
+          <div class="w-full p-4 md:w-1/4 sm:w-1/2">
+            <div class="px-4 py-6 border-2 border-gray-200 rounded-lg">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="inline-block w-12 h-12 mb-3 text-blue-500"
+                viewBox="0 0 24 24"
+              >
+                <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+                <path
+                  d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"
+                ></path>
+              </svg>
+              <h2 class="text-3xl font-medium text-gray-900 title-font">74</h2>
+              <p class="leading-relaxed">Files</p>
+            </div>
+          </div>
+          <div class="w-full p-4 md:w-1/4 sm:w-1/2">
+            <div class="px-4 py-6 border-2 border-gray-200 rounded-lg">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="inline-block w-12 h-12 mb-3 text-blue-500"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <h2 class="text-3xl font-medium text-gray-900 title-font">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
+          </div>
+        </div>
+        <!-- Current product location-->
+        <div class="flex flex-wrap m-4 text-center">
+          <div class="w-full p-4 md:w-1/4 sm:w-1/2">
+            <div class="px-4 py-6 border-2 border-gray-200 rounded-lg">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="inline-block w-12 h-12 mb-3 text-blue-500"
+                viewBox="0 0 24 24"
+              >
+                <path d="M8 17l4 4 4-4m-4-5v9"></path>
+                <path
+                  d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"
+                ></path>
+              </svg>
+              <h2 class="text-3xl font-medium text-gray-900 title-font">
+                2.7K
+              </h2>
+              <p class="leading-relaxed">Downloads</p>
+            </div>
+          </div>
+          <div class="w-full p-4 md:w-1/4 sm:w-1/2">
+            <div class="px-4 py-6 border-2 border-gray-200 rounded-lg">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="inline-block w-12 h-12 mb-3 text-blue-500"
+                viewBox="0 0 24 24"
+              >
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+              </svg>
+              <h2 class="text-3xl font-medium text-gray-900 title-font">
+                1.3K
+              </h2>
+              <p class="leading-relaxed">Users</p>
+            </div>
+          </div>
+          <div class="w-full p-4 md:w-1/4 sm:w-1/2">
+            <div class="px-4 py-6 border-2 border-gray-200 rounded-lg">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="inline-block w-12 h-12 mb-3 text-blue-500"
+                viewBox="0 0 24 24"
+              >
+                <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+                <path
+                  d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"
+                ></path>
+              </svg>
+              <h2 class="text-3xl font-medium text-gray-900 title-font">74</h2>
+              <p class="leading-relaxed">Files</p>
+            </div>
+          </div>
+          <div class="w-full p-4 md:w-1/4 sm:w-1/2">
+            <div class="px-4 py-6 border-2 border-gray-200 rounded-lg">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="inline-block w-12 h-12 mb-3 text-blue-500"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <h2 class="text-3xl font-medium text-gray-900 title-font">46</h2>
+              <p class="leading-relaxed">Places</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest location address -->
+    <section class="container px-5 py-8 mx-auto">
+      <div class="container flex flex-wrap px-5 py-24 mx-auto sm:flex-nowrap">
+        <div
+          class="relative flex items-end justify-start p-10 overflow-hidden bg-gray-300 rounded-lg lg:w-2/3 md:w-1/2 sm:mr-10"
+        >
+          <div class="py-6 rounded shadow-md">
+            <iframe
+              width="100%"
+              height="100%"
+              class="absolute inset-0"
+              frameborder="0"
+              title="map"
+              marginheight="0"
+              marginwidth="0"
+              scrolling="no"
+              src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+              style="filter: grayscale(1) contrast(1.2) opacity(0.4)"
+            ></iframe>
+          </div>
+        </div>
+        <div
+          class="flex flex-col w-full p-4 mt-8 bg-white lg:w-1/3 md:w-1/2 md:ml-auto md:py-8 md:mt-0"
+        >
+          <h2 class="mb-1 text-lg font-medium text-gray-900 title-font">
+            Feedback
+          </h2>
+          <p class="mb-5 leading-relaxed text-gray-600">
+            Your feedbacks helps us serve you better.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest truck location -->
+    <section class="container px-5 py-8 mx-auto">
+      <!-- Main Content -->
+      <div class="flex-grow">
+        <header
+          class="flex flex-wrap items-center justify-between p-6 bg-white shadow"
+        >
+          <div>
+            <h1 class="text-xl font-bold">Welcome "Company Name"</h1>
+            <p class="text-gray-500">Address: 123 nowhere avenue, kano</p>
+          </div>
+        </header>
+
+        <div class="h-full md:flex">
+          <!-- Ongoing Delivery List -->
+          <div class="w-full p-6 overflow-y-auto bg-white md:w-1/3">
+            <h2 class="mb-4 text-lg font-bold">Ongoing Delivery</h2>
+
+            <!-- Delivery Card -->
+            <div class="mb-6">
+              <div class="p-4 border rounded-lg">
+                <p class="text-sm text-gray-500">Waybill number</p>
+                <p class="font-bold">EV-2017002346</p>
+                <p class="text-gray-500">Product: AGO</p>
+                <div class="flex items-center mt-4">
+                  <div class="p-2 bg-green-200 rounded-full">
+                    <i class="text-green-600 fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="ml-3 text-gray-700">Dangote Depot</p>
+                </div>
+                <div class="flex items-center mt-4">
+                  <div class="p-2 bg-blue-200 rounded-full">
+                    <i class="text-blue-600 fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="ml-3 text-gray-700">Enugu</p>
+                </div>
+                <div class="flex items-center mt-4">
+                  <div class="p-2 bg-gray-200 rounded-full">
+                    <i class="text-gray-600 fas fa-user"></i>
+                  </div>
+                  <p class="ml-3 text-gray-700">Driver: Abdul</p>
+                </div>
+              </div>
+            </div>
+            <!-- Repeat the above delivery card for more deliveries -->
+          </div>
+
+          <!-- Map -->
+          <div class="w-full p-6 bg-blue-200 md:w-2/3 min-h-[80vh]">
+            <!-- Map Area -->
+            <div id="map" class="h-full bg-gray-300 rounded-lg">
+              <!-- Map integration goes here -->
+              <p class="text-center text-gray-500">
+                Map Area (Map integration here)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- colored statistics -->
+    <section class="container px-5 py-8 mx-auto">
+      <!-- Statistics -->
+      <div class="flex flex-wrap m-4 text-center">
+        <div class="w-full p-4 md:w-1/4 sm:w-1/2">
+          <div
+            class="px-4 py-6 bg-yellow-300 border-2 border-gray-100 rounded-lg"
+          >
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="inline-block w-12 h-12 mb-3 text-blue-500"
+              viewBox="0 0 24 24"
+            >
+              <path d="M8 17l4 4 4-4m-4-5v9"></path>
+              <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+            </svg>
+            <h2 class="text-3xl font-medium text-gray-900 title-font">2.7K</h2>
+            <p class="leading-relaxed">Programs</p>
+          </div>
+        </div>
+        <div class="w-full p-4 md:w-1/4 sm:w-1/2">
+          <div
+            class="px-4 py-6 bg-green-300 border-2 border-gray-100 rounded-lg"
+          >
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="inline-block w-12 h-12 mb-3 text-blue-500"
+              viewBox="0 0 24 24"
+            >
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+            </svg>
+            <h2 class="text-3xl font-medium text-gray-900 title-font">1.3K</h2>
+            <p class="leading-relaxed">Users</p>
+          </div>
+        </div>
+        <div class="w-full p-4 md:w-1/4 sm:w-1/2">
+          <div
+            class="px-4 py-6 bg-blue-300 border-2 border-gray-100 rounded-lg"
+          >
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="inline-block w-12 h-12 mb-3 text-blue-500"
+              viewBox="0 0 24 24"
+            >
+              <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+              <path
+                d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"
+              ></path>
+            </svg>
+            <h2 class="text-3xl font-medium text-gray-900 title-font">74</h2>
+            <p class="leading-relaxed">Files</p>
+          </div>
+        </div>
+        <div class="w-full p-4 md:w-1/4 sm:w-1/2">
+          <div class="px-4 py-6 bg-red-300 border-2 border-gray-200 rounded-lg">
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="inline-block w-12 h-12 mb-3 text-blue-500"
+              viewBox="0 0 24 24"
+            >
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <h2 class="text-3xl font-medium text-gray-900 title-font">46</h2>
+            <p class="leading-relaxed">Places</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest truck on road -->
+    <section class="container px-5 py-8 mx-auto">
+      <div class="text-center md:flex max-h-[100vh]">
+        <!-- Ongoing Delivery List -->
+        <div class="w-full p-6 overflow-y-auto bg-white md:w-1/3">
+          <h2 class="mb-4 text-lg font-bold">Ongoing Delivery!</h2>
+
+          <!-- Delivery Card -->
+          <div class="mb-6">
+            <div class="p-4 border rounded-lg">
+              <p class="text-sm text-gray-500">Waybill number</p>
+              <p class="font-bold">EV-2017002346</p>
+              <p class="text-gray-500">Product: AGO</p>
+              <div class="flex items-center mt-4">
+                <div class="p-2 bg-green-200 rounded-full">
+                  <i class="text-green-600 fas fa-map-marker-alt"></i>
+                </div>
+                <p class="ml-3 text-gray-700">Dangote Depot</p>
+              </div>
+              <div class="flex items-center mt-4">
+                <div class="p-2 bg-blue-200 rounded-full">
+                  <i class="text-blue-600 fas fa-map-marker-alt"></i>
+                </div>
+                <p class="ml-3 text-gray-700">Enugu</p>
+              </div>
+              <div class="flex items-center mt-4">
+                <div class="p-2 bg-gray-200 rounded-full">
+                  <i class="text-gray-600 fas fa-user"></i>
+                </div>
+                <p class="ml-3 text-gray-700">Driver: Abdul</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Delivery Card -->
+          <div class="mb-6">
+            <div class="p-4 border rounded-lg">
+              <p class="text-sm text-gray-500">Waybill number</p>
+              <p class="font-bold">EV-2017002346</p>
+              <p class="text-gray-500">Product: AGO</p>
+              <div class="flex items-center mt-4">
+                <div class="p-2 bg-green-200 rounded-full">
+                  <i class="text-green-600 fas fa-map-marker-alt"></i>
+                </div>
+                <p class="ml-3 text-gray-700">Dangote Depot</p>
+              </div>
+              <div class="flex items-center mt-4">
+                <div class="p-2 bg-blue-200 rounded-full">
+                  <i class="text-blue-600 fas fa-map-marker-alt"></i>
+                </div>
+                <p class="ml-3 text-gray-700">Enugu</p>
+              </div>
+              <div class="flex items-center mt-4">
+                <div class="p-2 bg-gray-200 rounded-full">
+                  <i class="text-gray-600 fas fa-user"></i>
+                </div>
+                <p class="ml-3 text-gray-700">Driver: Abdul</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Delivery Card -->
+          <div class="mb-6">
+            <div class="p-4 border rounded-lg">
+              <p class="text-sm text-gray-500">Waybill number</p>
+              <p class="font-bold">EV-2017002346</p>
+              <p class="text-gray-500">Product: AGO</p>
+              <div class="flex items-center mt-4">
+                <div class="p-2 bg-green-200 rounded-full">
+                  <i class="text-green-600 fas fa-map-marker-alt"></i>
+                </div>
+                <p class="ml-3 text-gray-700">Dangote Depot</p>
+              </div>
+              <div class="flex items-center mt-4">
+                <div class="p-2 bg-blue-200 rounded-full">
+                  <i class="text-blue-600 fas fa-map-marker-alt"></i>
+                </div>
+                <p class="ml-3 text-gray-700">Enugu</p>
+              </div>
+              <div class="flex items-center mt-4">
+                <div class="p-2 bg-gray-200 rounded-full">
+                  <i class="text-gray-600 fas fa-user"></i>
+                </div>
+                <p class="ml-3 text-gray-700">Driver: Abdul</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Delivery Card -->
+          <div class="mb-6">
+            <div class="p-4 border rounded-lg">
+              <p class="text-sm text-gray-500">Waybill number</p>
+              <p class="font-bold">EV-2017002346</p>
+              <p class="text-gray-500">Product: AGO</p>
+              <div class="flex items-center mt-4">
+                <div class="p-2 bg-green-200 rounded-full">
+                  <i class="text-green-600 fas fa-map-marker-alt"></i>
+                </div>
+                <p class="ml-3 text-gray-700">Dangote Depot</p>
+              </div>
+              <div class="flex items-center mt-4">
+                <div class="p-2 bg-blue-200 rounded-full">
+                  <i class="text-blue-600 fas fa-map-marker-alt"></i>
+                </div>
+                <p class="ml-3 text-gray-700">Enugu</p>
+              </div>
+              <div class="flex items-center mt-4">
+                <div class="p-2 bg-gray-200 rounded-full">
+                  <i class="text-gray-600 fas fa-user"></i>
+                </div>
+                <p class="ml-3 text-gray-700">Driver: Abdul</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full p-4 bg-yellow-300 h-100 md:w-2/3">
+          <!-- Map -->
+          <div class="w-full h-full p-6 bg-gray-200">
+            <!-- Map Area -->
+            <div id="map" class="h-full bg-gray-300 rounded-lg">
+              <!-- Map integration goes here -->
+              <p class="text-center text-gray-500">
+                Map Area (Map integration here)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Process Step -->
+    <section class="text-gray-600 body-font">
+      <div class="container flex flex-wrap px-5 py-24 mx-auto">
+        <div class="relative flex pt-10 pb-20 mx-auto sm:items-center md:w-2/3">
+          <div
+            class="absolute inset-0 flex items-center justify-center w-6 h-full"
+          >
+            <div class="w-1 h-full bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div
+            class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mt-10 text-sm font-medium text-white bg-blue-500 rounded-full sm:mt-0 title-font"
+          >
+            1
+          </div>
+          <div
+            class="flex flex-col items-start flex-grow pl-6 md:pl-8 sm:items-center sm:flex-row"
+          >
+            <div
+              class="inline-flex items-center justify-center flex-shrink-0 w-24 h-24 text-blue-500 bg-blue-100 rounded-full"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-12 h-12"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div class="flex-grow mt-6 sm:pl-6 sm:mt-0">
+              <h2 class="mb-1 text-xl font-medium text-gray-900 title-font">
+                Shooting Stars
+              </h2>
+              <p class="leading-relaxed">
+                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
+                bespoke try-hard cliche palo santo offal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="relative flex pb-20 mx-auto sm:items-center md:w-2/3">
+          <div
+            class="absolute inset-0 flex items-center justify-center w-6 h-full"
+          >
+            <div class="w-1 h-full bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div
+            class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mt-10 text-sm font-medium text-white bg-blue-500 rounded-full sm:mt-0 title-font"
+          >
+            2
+          </div>
+          <div
+            class="flex flex-col items-start flex-grow pl-6 md:pl-8 sm:items-center sm:flex-row"
+          >
+            <div
+              class="inline-flex items-center justify-center flex-shrink-0 w-24 h-24 text-blue-500 bg-blue-100 rounded-full"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-12 h-12"
+                viewBox="0 0 24 24"
+              >
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <div class="flex-grow mt-6 sm:pl-6 sm:mt-0">
+              <h2 class="mb-1 text-xl font-medium text-gray-900 title-font">
+                The Catalyzer
+              </h2>
+              <p class="leading-relaxed">
+                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
+                bespoke try-hard cliche palo santo offal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="relative flex pb-20 mx-auto sm:items-center md:w-2/3">
+          <div
+            class="absolute inset-0 flex items-center justify-center w-6 h-full"
+          >
+            <div class="w-1 h-full bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div
+            class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mt-10 text-sm font-medium text-white bg-blue-500 rounded-full sm:mt-0 title-font"
+          >
+            3
+          </div>
+          <div
+            class="flex flex-col items-start flex-grow pl-6 md:pl-8 sm:items-center sm:flex-row"
+          >
+            <div
+              class="inline-flex items-center justify-center flex-shrink-0 w-24 h-24 text-blue-500 bg-blue-100 rounded-full"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-12 h-12"
+                viewBox="0 0 24 24"
+              >
+                <circle cx="12" cy="5" r="3"></circle>
+                <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+              </svg>
+            </div>
+            <div class="flex-grow mt-6 sm:pl-6 sm:mt-0">
+              <h2 class="mb-1 text-xl font-medium text-gray-900 title-font">
+                The 400 Blows
+              </h2>
+              <p class="leading-relaxed">
+                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
+                bespoke try-hard cliche palo santo offal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="relative flex pb-10 mx-auto sm:items-center md:w-2/3">
+          <div
+            class="absolute inset-0 flex items-center justify-center w-6 h-full"
+          >
+            <div class="w-1 h-full bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div
+            class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mt-10 text-sm font-medium text-white bg-blue-500 rounded-full sm:mt-0 title-font"
+          >
+            4
+          </div>
+          <div
+            class="flex flex-col items-start flex-grow pl-6 md:pl-8 sm:items-center sm:flex-row"
+          >
+            <div
+              class="inline-flex items-center justify-center flex-shrink-0 w-24 h-24 text-blue-500 bg-blue-100 rounded-full"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-12 h-12"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <div class="flex-grow mt-6 sm:pl-6 sm:mt-0">
+              <h2 class="mb-1 text-xl font-medium text-gray-900 title-font">
+                Neptune
+              </h2>
+              <p class="leading-relaxed">
+                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
+                bespoke try-hard cliche palo santo offal.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container px-5 py-8 mx-auto">
+      <div
+        class="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 xl:grid-cols-4 2xl:gap-5"
+      >
+        <div
+          class="rounded-sm border border-stroke bg-white py-6 px-5 shadow-default dark:border-strokedark dark:bg-boxdark"
+        >
+          <div
+            class="flex h-11.5 w-11.5 items-center justify-center rounded-full bg-meta-2 dark:bg-meta-4"
+          >
+            <svg
+              class="fill-primary dark:fill-white"
+              width="22"
+              height="18"
+              viewBox="0 0 22 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.18418 8.03751C9.31543 8.03751 11.0686 6.35313 11.0686 4.25626C11.0686 2.15938 9.31543 0.475006 7.18418 0.475006C5.05293 0.475006 3.2998 2.15938 3.2998 4.25626C3.2998 6.35313 5.05293 8.03751 7.18418 8.03751ZM7.18418 2.05626C8.45605 2.05626 9.52168 3.05313 9.52168 4.29063C9.52168 5.52813 8.49043 6.52501 7.18418 6.52501C5.87793 6.52501 4.84668 5.52813 4.84668 4.29063C4.84668 3.05313 5.9123 2.05626 7.18418 2.05626Z"
+                fill=""
+              ></path>
+              <path
+                d="M15.8124 9.6875C17.6687 9.6875 19.1468 8.24375 19.1468 6.42188C19.1468 4.6 17.6343 3.15625 15.8124 3.15625C13.9905 3.15625 12.478 4.6 12.478 6.42188C12.478 8.24375 13.9905 9.6875 15.8124 9.6875ZM15.8124 4.7375C16.8093 4.7375 15999 5.49375 17.5999 6.45625C17.5999 7.41875 16.8093 8.175 15.8124 8.175C14.8155 8.175 14.0249 7.41875 14.0249 6.45625C14.0249 5.49375 14.8155 4.7375 15.8124 4.7375Z"
+                fill=""
+              ></path>
+              <path
+                d="M15.9843 10.0313H15.6749C14.6437 10.0313 13.6468 10.3406 12.7874 10.8563C11.8593 9.61876 10.3812 8.79376 8.73115 8.79376H5.67178C2.85303 8.82814 0.618652 11.0625 0.618652 13.8469V16.3219C0.618652 16.975 1.13428 17.4906 1.7874 17.4906H20.2468C20.8999 17.4906 21.4499 16.9406 21.4499 16.2875V15.4625C21.4155 12.4719 18.9749 10.0313 15.9843 10.0313ZM2.16553 15.9438V13.8469C2.16553 11.9219 3.74678 10.3406 5.67178 10.3406H8.73115C10.6562 10.3406 12.2374 11.9219 12.2374 13.8469V15.9438H2.16553V15.9438ZM19.8687 15.9438H13.7499V13.8469C13.7499 13.2969 13.6468 12.7469 13.4749 12.2313C14.0937 11.7844 14.8499 11.5781 15.6405 11.5781H15.9499C18.0812 11.5781 19.8343 13.3313 19.8343 15.4625V15.9438H19.8687Z"
+                fill=""
+              ></path>
+            </svg>
+          </div>
+          <div class="mt-4 flex items-end justify-between">
+            <div>
+              <h4 class="text-title-md font-bold text-black dark:text-white">
+                0
+              </h4>
+              <span class="text-sm font-medium">Total users</span>
+            </div>
+            <span
+              class="flex items-center gap-1 text-sm font-medium text-meta-5"
+              >0.95%<svg
+                class="fill-meta-5"
+                width="10"
+                height="11"
+                viewBox="0 0 10 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.64284 7.69237L9.09102 4.33987L10 5.22362L5 10.0849L-8.98488e-07 5.22362L0.908973 4.33987L4.35716 7.69237L4.35716 0.0848701L5.64284 0.0848704L5.64284 7.69237Z"
+                  fill=""
+                ></path></svg
+            ></span>
+          </div>
+        </div>
+
+        <div
+          class="rounded-sm border border-stroke bg-white py-6 px-5 shadow-default dark:border-strokedark dark:bg-boxdark"
+        >
+          <div
+            class="flex h-11.5 w-11.5 items-center justify-left rounded-full bg-meta-2 dark:bg-meta-4"
+          >
+            @@@
+          </div>
+          <div class="mt-4 flex items-end justify-between">
+            <div>
+              <h4 class="text-title-md font-bold text-black dark:text-white">
+                0
+              </h4>
+              <span class="text-sm font-medium">Total Products</span>
+            </div>
+            <span
+              class="flex items-center gap-1 text-sm font-medium text-meta-3"
+              >4.35%<svg
+                class="fill-meta-3"
+                width="10"
+                height="11"
+                viewBox="0 0 10 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.35716 2.47737L0.908974 5.82987L5.0443e-07 4.94612L5 0.0848689L10 4.94612L9.09103 5.82987L5.64284 2.47737L5.64284 10.0849L4.35716 10.0849L4.35716 2.47737Z"
+                  fill=""
+                ></path></svg
+            ></span>
+          </div>
+        </div>
+
+        <div
+          class="rounded-sm border border-stroke bg-white py-6 px-5 shadow-default dark:border-strokedark dark:bg-boxdark"
+        >
+          <div
+            class="flex h-11.5 w-11.5 items-center justify-left rounded-full bg-meta-2 dark:bg-meta-4"
+          >
+            &&&
+          </div>
+          <div class="mt-4 flex items-end justify-between">
+            <div>
+              <h4 class="text-title-md font-bold text-black dark:text-white">
+                0
+              </h4>
+              <span class="text-sm font-medium">Total Listings</span>
+            </div>
+            <span
+              class="flex items-center gap-1 text-sm font-medium text-meta-3"
+              >0.43%<svg
+                class="fill-meta-3"
+                width="10"
+                height="11"
+                viewBox="0 0 10 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.35716 2.47737L0.908974 5.82987L5.0443e-07 4.94612L5 0.0848689L10 4.94612L9.09103 5.82987L5.64284 2.47737L5.64284 10.0849L4.35716 10.0849L4.35716 2.47737Z"
+                  fill=""
+                ></path></svg
+            ></span>
+          </div>
+        </div>
+
+        <div
+          class="rounded-sm border border-stroke bg-white py-6 px-5 shadow-default dark:border-strokedark dark:bg-boxdark"
+        >
+          <div
+            class="flex h-11.5 w-11.5 items-center justify-left rounded-full bg-meta-2 dark:bg-meta-4"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              width="1em"
+              stroke-width="1.5"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"
+              ></path>
+            </svg>
+          </div>
+          <div class="mt-4 flex items-end justify-between">
+            <div>
+              <h4 class="text-title-md font-bold text-black dark:text-white">
+                0
+              </h4>
+              <span class="text-sm font-medium">Reviews</span>
+            </div>
+            <span
+              class="flex items-center gap-1 text-sm font-medium text-meta-3"
+              >2.59%<svg
+                class="fill-meta-3"
+                width="10"
+                height="11"
+                viewBox="0 0 10 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.35716 2.47737L0.908974 5.82987L5.0443e-07 4.94612L5 0.0848689L10 4.94612L9.09103 5.82987L5.64284 2.47737L5.64284 10.0849L4.35716 10.0849L4.35716 2.47737Z"
+                  fill=""
+                ></path>
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- dashboard card premium features-->
+    <section class="container px-5 py-8 mx-auto">
+      <div class="mb-12 grid gap-y-10 gap-x-6 md:grid-cols-2 xl:grid-cols-4">
+        <div
+          class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 border border-blue-gray-100 shadow-sm"
+        >
+          <div
+            class="bg-clip-border mt-4 mx-4 rounded-xl overflow-hidden bg-gradient-to-tr from-gray-900 to-gray-800 text-white shadow-gray-900/20 absolute grid h-12 w-12 place-items-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+              class="w-6 h-6 text-white"
+            >
+              <path d="M12 7.5a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"></path>
+              <path
+                fill-rule="evenodd"
+                d="M1.5 4.875C1.5 3.839 2.34 3 3.375 3h17.25c1.035 0 1.875.84 1.875 1.875v9.75c0 1.036-.84 1.875-1.875 1.875H3.375A1.875 1.875 0 011.5 14.625v-9.75zM8.25 9.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0zM18.75 9a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V9.75a.75.75 0 00-.75-.75h-.008zM4.5 9.75A.75.75 0 015.25 9h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H5.25a.75.75 0 01-.75-.75V9.75z"
+                clip-rule="evenodd"
+              ></path>
+              <path
+                d="M2.25 18a.75.75 0 000 1.5c5.4 0 10.63.722 15.6 2.075 1.19.324 2.4-.558 2.4-1.82V18.75a.75.75 0 00-.75-.75H2.25z"
+              ></path>
+            </svg>
+          </div>
+          <div class="p-4 text-right">
+            <p
+              class="block antialiased font-sans text-sm leading-normal font-normal text-blue-gray-600"
+            >
+              Today's Money
+            </p>
+            <h4
+              class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900"
+            >
+              $53k
+            </h4>
+          </div>
+          <div class="border-t border-blue-gray-50 p-4">
+            <p
+              class="block antialiased font-sans text-base leading-relaxed font-normal text-blue-gray-600"
+            >
+              <strong class="text-green-500">+55%</strong>&nbsp;than last week
+            </p>
+          </div>
+        </div>
+        <div
+          class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 border border-blue-gray-100 shadow-sm"
+        >
+          <div
+            class="bg-clip-border mt-4 mx-4 rounded-xl overflow-hidden bg-gradient-to-tr from-gray-900 to-gray-800 text-white shadow-gray-900/20 absolute grid h-12 w-12 place-items-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+              class="w-6 h-6 text-white"
+            >
+              <path
+                d="M4.5 6.375a4.125 4.125 0 118.25 0 4.125 4.125 0 01-8.25 0zM14.25 8.625a3.375 3.375 0 116.75 0 3.375 3.375 0 01-6.75 0zM1.5 19.125a7.125 7.125 0 0114.25 0v.003l-.001.119a.75.75 0 01-.363.63 13.067 13.067 0 01-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 01-.364-.63l-.001-.122zM17.25 19.128l-.001.144a2.25 2.25 0 01-.233.96 10.088 10.088 0 005.06-1.01.75.75 0 00.42-.643 4.875 4.875 0 00-6.957-4.611 8.586 8.586 0 011.71 5.157v.003z"
+              ></path>
+            </svg>
+          </div>
+          <div class="p-4 text-right">
+            <p
+              class="block antialiased font-sans text-sm leading-normal font-normal text-blue-gray-600"
+            >
+              Today's Users
+            </p>
+            <h4
+              class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900"
+            >
+              2,300
+            </h4>
+          </div>
+          <div class="border-t border-blue-gray-50 p-4">
+            <p
+              class="block antialiased font-sans text-base leading-relaxed font-normal text-blue-gray-600"
+            >
+              <strong class="text-green-500">+3%</strong>&nbsp;than last month
+            </p>
+          </div>
+        </div>
+        <div
+          class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 border border-blue-gray-100 shadow-sm"
+        >
+          <div
+            class="bg-clip-border mt-4 mx-4 rounded-xl overflow-hidden bg-gradient-to-tr from-gray-900 to-gray-800 text-white shadow-gray-900/20 absolute grid h-12 w-12 place-items-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+              class="w-6 h-6 text-white"
+            >
+              <path
+                d="M6.25 6.375a4.125 4.125 0 118.25 0 4.125 4.125 0 01-8.25 0zM3.25 19.125a7.125 7.125 0 0114.25 0v.003l-.001.119a.75.75 0 01-.363.63 13.067 13.067 0 01-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 01-.364-.63l-.001-.122zM19.75 7.5a.75.75 0 00-1.5 0v2.25H16a.75.75 0 000 1.5h2.25v2.25a.75.75 0 001.5 0v-2.25H22a.75.75 0 000-1.5h-2.25V7.5z"
+              ></path>
+            </svg>
+          </div>
+          <div class="p-4 text-right">
+            <p
+              class="block antialiased font-sans text-sm leading-normal font-normal text-blue-gray-600"
+            >
+              New Clients
+            </p>
+            <h4
+              class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900"
+            >
+              3,462
+            </h4>
+          </div>
+          <div class="border-t border-blue-gray-50 p-4">
+            <p
+              class="block antialiased font-sans text-base leading-relaxed font-normal text-blue-gray-600"
+            >
+              <strong class="text-red-500">-2%</strong>&nbsp;than yesterday
+            </p>
+          </div>
+        </div>
+        <div
+          class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 border border-blue-gray-100 shadow-sm"
+        >
+          <div
+            class="bg-clip-border mt-4 mx-4 rounded-xl overflow-hidden bg-gradient-to-tr from-gray-900 to-gray-800 text-white shadow-gray-900/20 absolute grid h-12 w-12 place-items-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+              class="w-6 h-6 text-white"
+            >
+              <path
+                d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z"
+              ></path>
+            </svg>
+          </div>
+          <div class="p-4 text-right">
+            <p
+              class="block antialiased font-sans text-sm leading-normal font-normal text-blue-gray-600"
+            >
+              Sales
+            </p>
+            <h4
+              class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900"
+            >
+              $103,430
+            </h4>
+          </div>
+          <div class="border-t border-blue-gray-50 p-4">
+            <p
+              class="block antialiased font-sans text-base leading-relaxed font-normal text-blue-gray-600"
+            >
+              <strong class="text-green-500">+5%</strong>&nbsp;than yesterday
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container px-5 py-8 mx-auto">
+      <div class="flex flex-wrap -mx-3">
+        <div class="max-w-full px-3 lg:w-2/3 lg:flex-none">
+          <div class="flex flex-wrap -mx-3">
+            <div
+              class="w-full max-w-full px-3 mb-6 xl:mb-0 xl:w-1/2 xl:flex-none"
+            >
+              <div
+                class="relative flex flex-col min-w-0 break-words bg-transparent border-0 border-transparent border-solid shadow-xl rounded-2xl bg-clip-border"
+              >
+                <div
+                  class="relative overflow-hidden rounded-2xl"
+                  style="
+                    background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/card-visa.jpg');
+                  "
+                >
+                  <span
+                    class="absolute top-0 left-0 w-full h-full bg-center bg-cover bg-gradient-to-tl from-zinc-800 to-zinc-700 dark:bg-gradient-to-tl dark:from-slate-750 dark:to-gray-850 opacity-80"
+                  ></span>
+                  <div class="relative z-10 flex-auto p-4">
+                    <i
+                      class="p-2 text-white fas fa-wifi"
+                      aria-hidden="true"
+                    ></i>
+                    <h5 class="pb-2 mt-6 mb-12 text-white">
+                      4562&nbsp;&nbsp;&nbsp;1122&nbsp;&nbsp;&nbsp;4594&nbsp;&nbsp;&nbsp;7852
+                    </h5>
+                    <div class="flex">
+                      <div class="flex">
+                        <div class="mr-6">
+                          <p
+                            class="mb-0 text-sm leading-normal text-white opacity-80"
+                          >
+                            Card Holder
+                          </p>
+                          <h6 class="mb-0 text-white">Jack Peterson</h6>
+                        </div>
+                        <div>
+                          <p
+                            class="mb-0 text-sm leading-normal text-white opacity-80"
+                          >
+                            Expires
+                          </p>
+                          <h6 class="mb-0 text-white">11/22</h6>
+                        </div>
+                      </div>
+                      <div class="flex items-end justify-end w-1/5 ml-auto">
+                        <img
+                          class="w-3/5 mt-2"
+                          src="../assets/img/logos/mastercard.png"
+                          alt="logo"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full max-w-full px-3 xl:w-1/2 xl:flex-none">
+              <div class="flex flex-wrap -mx-3">
+                <div class="w-full max-w-full px-3 md:w-1/2 md:flex-none">
+                  <div
+                    class="relative flex flex-col min-w-0 break-words bg-white border-0 border-transparent border-solid shadow-xl dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border"
+                  >
+                    <div
+                      class="p-4 mx-6 mb-0 text-center border-b-0 border-b-solid rounded-t-2xl border-b-transparent"
+                    >
+                      <div
+                        class="w-16 h-16 text-center bg-center shadow-sm icon bg-gradient-to-tl from-blue-500 to-violet-500 rounded-xl"
+                      >
+                        <i
+                          class="relative text-xl leading-none text-white opacity-100 fas fa-landmark top-31/100"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="flex-auto p-4 pt-0 text-center">
+                      <h6 class="mb-0 text-center dark:text-white">Salary</h6>
+                      <span
+                        class="text-xs leading-tight dark:text-white dark:opacity-80"
+                        >Belong Interactive</span
+                      >
+                      <hr
+                        class="h-px my-4 bg-transparent bg-gradient-to-r from-transparent via-black/40 to-transparent dark:bg-gradient-to-r dark:from-transparent dark:via-white dark:to-transparent"
+                      />
+                      <h5 class="mb-0 dark:text-white">+$2000</h5>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="w-full max-w-full px-3 mt-6 md:mt-0 md:w-1/2 md:flex-none"
+                >
+                  <div
+                    class="relative flex flex-col min-w-0 break-words bg-white border-0 border-transparent border-solid shadow-xl dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border"
+                  >
+                    <div
+                      class="p-4 mx-6 mb-0 text-center border-b-0 border-b-solid rounded-t-2xl border-b-transparent"
+                    >
+                      <div
+                        class="w-16 h-16 text-center bg-center shadow-sm icon bg-gradient-to-tl from-blue-500 to-violet-500 rounded-xl"
+                      >
+                        <i
+                          class="relative text-xl leading-none text-white opacity-100 fab fa-paypal top-31/100"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="flex-auto p-4 pt-0 text-center">
+                      <h6 class="mb-0 text-center dark:text-white">Paypal</h6>
+                      <span
+                        class="text-xs leading-tight dark:text-white dark:opacity-80"
+                        >Freelance Payment</span
+                      >
+                      <hr
+                        class="h-px my-4 bg-transparent bg-gradient-to-r from-transparent via-black/40 to-transparent dark:bg-gradient-to-r dark:from-transparent dark:via-white dark:to-transparent"
+                      />
+                      <h5 class="mb-0 dark:text-white">$455.00</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="max-w-full px-3 mb-6 lg:mb-0 lg:w-full lg:flex-none">
+              <div
+                class="relative flex flex-col min-w-0 mt-6 break-words bg-white border-0 border-transparent border-solid shadow-xl dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border"
+              >
+                <div
+                  class="p-4 pb-0 mb-0 border-b-0 border-b-solid rounded-t-2xl border-b-transparent"
+                >
+                  <div class="flex flex-wrap -mx-3">
+                    <div
+                      class="flex items-center flex-none w-1/2 max-w-full px-3"
+                    >
+                      <h6 class="mb-0 dark:text-white">Payment Method</h6>
+                    </div>
+                    <div class="flex-none w-1/2 max-w-full px-3 text-right">
+                      <a
+                        class="inline-block px-5 py-2.5 font-bold leading-normal text-center text-white align-middle transition-all bg-transparent rounded-lg cursor-pointer text-sm ease-in shadow-md bg-150 bg-gradient-to-tl from-zinc-800 to-zinc-700 dark:bg-gradient-to-tl dark:from-slate-750 dark:to-gray-850 hover:shadow-xs active:opacity-85 hover:-translate-y-px tracking-tight-rem bg-x-25"
+                        href="javascript:;"
+                      >
+                        <i class="fas fa-plus" aria-hidden="true"> </i
+                        >&nbsp;&nbsp;Add New Card</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="flex-auto p-4">
+                  <div class="flex flex-wrap -mx-3">
+                    <div
+                      class="max-w-full px-3 mb-6 md:mb-0 md:w-1/2 md:flex-none"
+                    >
+                      <div
+                        class="relative flex flex-row items-center flex-auto min-w-0 p-6 break-words bg-transparent border border-solid shadow-none md-max:overflow-auto rounded-xl border-slate-100 dark:border-slate-700 bg-clip-border"
+                      >
+                        <img
+                          class="mb-0 mr-4 w-1/10"
+                          src="../assets/img/logos/mastercard.png"
+                          alt="logo"
+                        />
+                        <h6 class="mb-0 dark:text-white">
+                          ****&nbsp;&nbsp;&nbsp;****&nbsp;&nbsp;&nbsp;****&nbsp;&nbsp;&nbsp;7852
+                        </h6>
+                        <i
+                          class="ml-auto cursor-pointer fas fa-pencil-alt text-slate-700"
+                          data-target="tooltip_trigger"
+                          data-placement="top"
+                          aria-hidden="true"
+                        ></i>
+                        <div
+                          data-target="tooltip"
+                          class="hidden px-2 py-1 text-sm text-white bg-black rounded-lg"
+                          data-popper-placement="top"
+                          style="
+                            position: absolute;
+                            inset: auto auto 0px 0px;
+                            margin: 0px;
+                            transform: translate3d(486.5px, -940px, 0px);
+                          "
+                        >
+                          Edit Card
+                          <div
+                            class="invisible absolute h-2 w-2 bg-inherit before:visible before:absolute before:h-2 before:w-2 before:rotate-45 before:bg-inherit before:content-['']"
+                            data-popper-arrow=""
+                            style="
+                              position: absolute;
+                              left: 0px;
+                              transform: translate3d(0px, 0px, 0px);
+                            "
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="max-w-full px-3 md:w-1/2 md:flex-none">
+                      <div
+                        class="relative flex flex-row items-center flex-auto min-w-0 p-6 break-words bg-transparent border border-solid shadow-none md-max:overflow-auto rounded-xl border-slate-100 dark:border-slate-700 bg-clip-border"
+                      >
+                        <img
+                          class="mb-0 mr-4 w-1/10"
+                          src="../assets/img/logos/visa.png"
+                          alt="logo"
+                        />
+                        <h6 class="mb-0 dark:text-white">
+                          ****&nbsp;&nbsp;&nbsp;****&nbsp;&nbsp;&nbsp;****&nbsp;&nbsp;&nbsp;5248
+                        </h6>
+                        <i
+                          class="ml-auto cursor-pointer fas fa-pencil-alt text-slate-700"
+                          data-target="tooltip_trigger"
+                          data-placement="top"
+                          aria-hidden="true"
+                        ></i>
+                        <div
+                          data-target="tooltip"
+                          class="hidden px-2 py-1 text-sm text-white bg-black rounded-lg"
+                          data-popper-placement="top"
+                          style="
+                            position: absolute;
+                            inset: auto auto 0px 0px;
+                            margin: 0px;
+                            transform: translate3d(989.5px, -940px, 0px);
+                          "
+                        >
+                          Edit Card
+                          <div
+                            class="invisible absolute h-2 w-2 bg-inherit before:visible before:absolute before:h-2 before:w-2 before:rotate-45 before:bg-inherit before:content-['']"
+                            data-popper-arrow=""
+                            style="
+                              position: absolute;
+                              left: 0px;
+                              transform: translate3d(0px, 0px, 0px);
+                            "
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full max-w-full px-3 lg:w-1/3 lg:flex-none">
+          <div
+            class="relative flex flex-col h-full min-w-0 break-words bg-white border-0 border-transparent border-solid shadow-xl dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border"
+          >
+            <div
+              class="p-4 pb-0 mb-0 border-b-0 border-b-solid rounded-t-2xl border-b-transparent"
+            >
+              <div class="flex flex-wrap -mx-3">
+                <div class="flex items-center flex-none w-1/2 max-w-full px-3">
+                  <h6 class="mb-0 dark:text-white">Invoices</h6>
+                </div>
+                <div class="flex-none w-1/2 max-w-full px-3 text-right">
+                  <button
+                    class="inline-block px-8 py-2 mb-0 text-xs font-bold leading-normal text-center text-blue-500 align-middle transition-all ease-in bg-transparent border border-blue-500 border-solid rounded-lg shadow-none cursor-pointer bg-150 active:opacity-85 hover:-translate-y-px tracking-tight-rem bg-x-25 hover:opacity-75"
+                  >
+                    View All
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="flex-auto p-4 pb-0">
+              <ul class="flex flex-col pl-0 mb-0 rounded-lg">
+                <li
+                  class="relative flex justify-between px-4 py-2 pl-0 mb-2 border-0 rounded-t-inherit text-inherit rounded-xl"
+                >
+                  <div class="flex flex-col">
+                    <h6
+                      class="mb-1 text-sm font-semibold leading-normal dark:text-white text-slate-700"
+                    >
+                      March, 01, 2020
+                    </h6>
+                    <span
+                      class="text-xs leading-tight dark:text-white dark:opacity-80"
+                      >#MS-415646</span
+                    >
+                  </div>
+                  <div
+                    class="flex items-center text-sm leading-normal dark:text-white/80"
+                  >
+                    $180
+                    <button
+                      class="dark:text-white inline-block px-0 py-2.5 mb-0 ml-6 font-bold leading-normal text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer ease-in bg-150 text-sm active:opacity-85 hover:-translate-y-px tracking-tight-rem bg-x-25 text-slate-700"
+                    >
+                      <i
+                        class="mr-1 text-lg leading-none fas fa-file-pdf"
+                        aria-hidden="true"
+                      ></i>
+                      PDF
+                    </button>
+                  </div>
+                </li>
+                <li
+                  class="relative flex justify-between px-4 py-2 pl-0 mb-2 border-0 rounded-xl text-inherit"
+                >
+                  <div class="flex flex-col">
+                    <h6
+                      class="mb-1 text-sm font-semibold leading-normal dark:text-white text-slate-700"
+                    >
+                      February, 10, 2021
+                    </h6>
+                    <span
+                      class="text-xs leading-tight dark:text-white dark:opacity-80"
+                      >#RV-126749</span
+                    >
+                  </div>
+                  <div
+                    class="flex items-center text-sm leading-normal dark:text-white/80"
+                  >
+                    $250
+                    <button
+                      class="dark:text-white inline-block px-0 py-2.5 mb-0 ml-6 font-bold leading-normal text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer ease-in bg-150 text-sm active:opacity-85 hover:-translate-y-px tracking-tight-rem bg-x-25 text-slate-700"
+                    >
+                      <i
+                        class="mr-1 text-lg leading-none fas fa-file-pdf"
+                        aria-hidden="true"
+                      ></i>
+                      PDF
+                    </button>
+                  </div>
+                </li>
+                <li
+                  class="relative flex justify-between px-4 py-2 pl-0 mb-2 border-0 rounded-xl text-inherit"
+                >
+                  <div class="flex flex-col">
+                    <h6
+                      class="mb-1 text-sm font-semibold leading-normal dark:text-white text-slate-700"
+                    >
+                      April, 05, 2020
+                    </h6>
+                    <span
+                      class="text-xs leading-tight dark:text-white dark:opacity-80"
+                      >#FB-212562</span
+                    >
+                  </div>
+                  <div
+                    class="flex items-center text-sm leading-normal dark:text-white/80"
+                  >
+                    $560
+                    <button
+                      class="dark:text-white inline-block px-0 py-2.5 mb-0 ml-6 font-bold leading-normal text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer ease-in bg-150 text-sm active:opacity-85 hover:-translate-y-px tracking-tight-rem bg-x-25 text-slate-700"
+                    >
+                      <i
+                        class="mr-1 text-lg leading-none fas fa-file-pdf"
+                        aria-hidden="true"
+                      ></i>
+                      PDF
+                    </button>
+                  </div>
+                </li>
+                <li
+                  class="relative flex justify-between px-4 py-2 pl-0 mb-2 border-0 rounded-xl text-inherit"
+                >
+                  <div class="flex flex-col">
+                    <h6
+                      class="mb-1 text-sm font-semibold leading-normal dark:text-white text-slate-700"
+                    >
+                      June, 25, 2019
+                    </h6>
+                    <span
+                      class="text-xs leading-tight dark:text-white dark:opacity-80"
+                      >#QW-103578</span
+                    >
+                  </div>
+                  <div
+                    class="flex items-center text-sm leading-normal dark:text-white/80"
+                  >
+                    $120
+                    <button
+                      class="dark:text-white inline-block px-0 py-2.5 mb-0 ml-6 font-bold leading-normal text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer ease-in bg-150 text-sm active:opacity-85 hover:-translate-y-px tracking-tight-rem bg-x-25 text-slate-700"
+                    >
+                      <i
+                        class="mr-1 text-lg leading-none fas fa-file-pdf"
+                        aria-hidden="true"
+                      ></i>
+                      PDF
+                    </button>
+                  </div>
+                </li>
+                <li
+                  class="relative flex justify-between px-4 py-2 pl-0 border-0 rounded-b-inherit rounded-xl text-inherit"
+                >
+                  <div class="flex flex-col">
+                    <h6
+                      class="mb-1 text-sm font-semibold leading-normal dark:text-white text-slate-700"
+                    >
+                      March, 01, 2019
+                    </h6>
+                    <span
+                      class="text-xs leading-tight dark:text-white dark:opacity-80"
+                      >#AR-803481</span
+                    >
+                  </div>
+                  <div
+                    class="flex items-center text-sm leading-normal dark:text-white/80"
+                  >
+                    $300
+                    <button
+                      class="dark:text-white inline-block px-0 py-2.5 mb-0 ml-6 font-bold leading-normal text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer ease-in bg-150 text-sm active:opacity-85 hover:-translate-y-px tracking-tight-rem bg-x-25 text-slate-700"
+                    >
+                      <i
+                        class="mr-1 text-lg leading-none fas fa-file-pdf"
+                        aria-hidden="true"
+                      ></i>
+                      PDF
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container px-5 py-8 mx-auto">
+      <div class="flex flex-wrap -mx-3">
+        <div class="w-full max-w-full px-3 mt-6 md:w-7/12 md:flex-none">
+          <div
+            class="relative flex flex-col min-w-0 break-words bg-white border-0 shadow-xl dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border"
+          >
+            <div class="p-6 px-4 pb-0 mb-0 border-b-0 rounded-t-2xl">
+              <h6 class="mb-0 dark:text-white">Billing Information</h6>
+            </div>
+            <div class="flex-auto p-4 pt-6">
+              <ul class="flex flex-col pl-0 mb-0 rounded-lg">
+                <li
+                  class="relative flex p-6 mb-2 border-0 rounded-t-inherit rounded-xl bg-gray-50 dark:bg-slate-850"
+                >
+                  <div class="flex flex-col">
+                    <h6 class="mb-4 text-sm leading-normal dark:text-white">
+                      Oliver Liam
+                    </h6>
+                    <span class="mb-2 text-xs leading-tight dark:text-white/80"
+                      >Company Name:
+                      <span
+                        class="font-semibold text-slate-700 dark:text-white sm:ml-2"
+                        >Viking Burrito</span
+                      ></span
+                    >
+                    <span class="mb-2 text-xs leading-tight dark:text-white/80"
+                      >Email Address:
+                      <span
+                        class="font-semibold text-slate-700 dark:text-white sm:ml-2"
+                        >oliver@burrito.com</span
+                      ></span
+                    >
+                    <span class="text-xs leading-tight dark:text-white/80"
+                      >VAT Number:
+                      <span
+                        class="font-semibold text-slate-700 dark:text-white sm:ml-2"
+                        >FRB1235476</span
+                      ></span
+                    >
+                  </div>
+                  <div class="ml-auto text-right">
+                    <a
+                      class="relative z-10 inline-block px-4 py-2.5 mb-0 font-bold text-center text-transparent align-middle transition-all border-0 rounded-lg shadow-none cursor-pointer leading-normal text-sm ease-in bg-150 bg-gradient-to-tl from-red-600 to-orange-600 hover:-translate-y-px active:opacity-85 bg-x-25 bg-clip-text"
+                      href="javascript:;"
+                      ><i
+                        class="mr-2 far fa-trash-alt bg-150 bg-gradient-to-tl from-red-600 to-orange-600 bg-x-25 bg-clip-text"
+                        aria-hidden="true"
+                      ></i
+                      >Delete</a
+                    >
+                    <a
+                      class="inline-block dark:text-white px-4 py-2.5 mb-0 font-bold text-center align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-normal text-sm ease-in bg-150 hover:-translate-y-px active:opacity-85 bg-x-25 text-slate-700"
+                      href="javascript:;"
+                      ><i
+                        class="mr-2 fas fa-pencil-alt text-slate-700"
+                        aria-hidden="true"
+                      ></i
+                      >Edit</a
+                    >
+                  </div>
+                </li>
+                <li
+                  class="relative flex p-6 mt-4 mb-2 border-0 rounded-xl bg-gray-50 dark:bg-slate-850"
+                >
+                  <div class="flex flex-col">
+                    <h6 class="mb-4 text-sm leading-normal dark:text-white">
+                      Lucas Harper
+                    </h6>
+                    <span class="mb-2 text-xs leading-tight dark:text-white/80"
+                      >Company Name:
+                      <span
+                        class="font-semibold text-slate-700 dark:text-white sm:ml-2"
+                        >Stone Tech Zone</span
+                      ></span
+                    >
+                    <span class="mb-2 text-xs leading-tight dark:text-white/80"
+                      >Email Address:
+                      <span
+                        class="font-semibold text-slate-700 dark:text-white sm:ml-2"
+                        >lucas@stone-tech.com</span
+                      ></span
+                    >
+                    <span class="text-xs leading-tight dark:text-white/80"
+                      >VAT Number:
+                      <span
+                        class="font-semibold text-slate-700 dark:text-white sm:ml-2"
+                        >FRB1235476</span
+                      ></span
+                    >
+                  </div>
+                  <div class="ml-auto text-right">
+                    <a
+                      class="relative z-10 inline-block px-4 py-2.5 mb-0 font-bold text-center text-transparent align-middle transition-all border-0 rounded-lg shadow-none cursor-pointer leading-normal text-sm ease-in bg-150 bg-gradient-to-tl from-red-600 to-orange-600 hover:-translate-y-px active:opacity-85 bg-x-25 bg-clip-text"
+                      href="javascript:;"
+                      ><i
+                        class="mr-2 far fa-trash-alt bg-150 bg-gradient-to-tl from-red-600 to-orange-600 bg-x-25 bg-clip-text"
+                        aria-hidden="true"
+                      ></i
+                      >Delete</a
+                    >
+                    <a
+                      class="inline-block dark:text-white px-4 py-2.5 mb-0 font-bold text-center align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-normal text-sm ease-in bg-150 hover:-translate-y-px active:opacity-85 bg-x-25 text-slate-700"
+                      href="javascript:;"
+                      ><i
+                        class="mr-2 fas fa-pencil-alt text-slate-700"
+                        aria-hidden="true"
+                      ></i
+                      >Edit</a
+                    >
+                  </div>
+                </li>
+                <li
+                  class="relative flex p-6 mt-4 mb-2 border-0 rounded-b-inherit rounded-xl bg-gray-50 dark:bg-slate-850"
+                >
+                  <div class="flex flex-col">
+                    <h6 class="mb-4 text-sm leading-normal dark:text-white">
+                      Ethan James
+                    </h6>
+                    <span class="mb-2 text-xs leading-tight dark:text-white/80"
+                      >Company Name:
+                      <span
+                        class="font-semibold text-slate-700 dark:text-white sm:ml-2"
+                        >Fiber Notion</span
+                      ></span
+                    >
+                    <span class="mb-2 text-xs leading-tight dark:text-white/80"
+                      >Email Address:
+                      <span
+                        class="font-semibold text-slate-700 dark:text-white sm:ml-2"
+                        >ethan@fiber.com</span
+                      ></span
+                    >
+                    <span class="text-xs leading-tight dark:text-white/80"
+                      >VAT Number:
+                      <span
+                        class="font-semibold text-slate-700 dark:text-white sm:ml-2"
+                        >FRB1235476</span
+                      ></span
+                    >
+                  </div>
+                  <div class="ml-auto text-right">
+                    <a
+                      class="relative z-10 inline-block px-4 py-2.5 mb-0 font-bold text-center text-transparent align-middle transition-all border-0 rounded-lg shadow-none cursor-pointer leading-normal text-sm ease-in bg-150 bg-gradient-to-tl from-red-600 to-orange-600 hover:-translate-y-px active:opacity-85 bg-x-25 bg-clip-text"
+                      href="javascript:;"
+                      ><i
+                        class="mr-2 far fa-trash-alt bg-150 bg-gradient-to-tl from-red-600 to-orange-600 bg-x-25 bg-clip-text"
+                        aria-hidden="true"
+                      ></i
+                      >Delete</a
+                    >
+                    <a
+                      class="inline-block dark:text-white px-4 py-2.5 mb-0 font-bold text-center align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-normal text-sm ease-in bg-150 hover:-translate-y-px active:opacity-85 bg-x-25 text-slate-700"
+                      href="javascript:;"
+                      ><i
+                        class="mr-2 fas fa-pencil-alt text-slate-700"
+                        aria-hidden="true"
+                      ></i
+                      >Edit</a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="w-full max-w-full px-3 mt-6 md:w-5/12 md:flex-none">
+          <div
+            class="relative flex flex-col h-full min-w-0 mb-6 break-words bg-white border-0 shadow-xl dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border"
+          >
+            <div class="p-6 px-4 pb-0 mb-0 border-b-0 rounded-t-2xl">
+              <div class="flex flex-wrap -mx-3">
+                <div class="max-w-full px-3 md:w-1/2 md:flex-none">
+                  <h6 class="mb-0 dark:text-white">Your Transactions</h6>
+                </div>
+                <div
+                  class="flex items-center justify-end max-w-full px-3 dark:text-white/80 md:w-1/2 md:flex-none"
+                >
+                  <i class="mr-2 far fa-calendar-alt" aria-hidden="true"></i>
+                  <small>23 - 30 March 2020</small>
+                </div>
+              </div>
+            </div>
+            <div class="flex-auto p-4 pt-6">
+              <h6
+                class="mb-4 text-xs font-bold leading-tight uppercase dark:text-white text-slate-500"
+              >
+                Newest
+              </h6>
+              <ul class="flex flex-col pl-0 mb-0 rounded-lg">
+                <li
+                  class="relative flex justify-between px-4 py-2 pl-0 mb-2 border-0 rounded-t-inherit text-inherit rounded-xl"
+                >
+                  <div class="flex items-center">
+                    <button
+                      class="leading-pro ease-in text-xs bg-150 w-6.5 h-6.5 p-1.2 rounded-3.5xl tracking-tight-rem bg-x-25 mr-4 mb-0 flex cursor-pointer items-center justify-center border border-solid border-red-600 border-transparent bg-transparent text-center align-middle font-bold uppercase text-red-600 transition-all hover:opacity-75"
+                    >
+                      <i
+                        class="fas fa-arrow-down text-3xs"
+                        aria-hidden="true"
+                      ></i>
+                    </button>
+                    <div class="flex flex-col">
+                      <h6
+                        class="mb-1 text-sm leading-normal dark:text-white text-slate-700"
+                      >
+                        Netflix
+                      </h6>
+                      <span class="text-xs leading-tight dark:text-white/80"
+                        >27 March 2020, at 12:30 PM</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-center justify-center">
+                    <p
+                      class="relative z-10 inline-block m-0 text-sm font-semibold leading-normal text-transparent bg-gradient-to-tl from-red-600 to-orange-600 bg-clip-text"
+                    >
+                      - $ 2,500
+                    </p>
+                  </div>
+                </li>
+                <li
+                  class="relative flex justify-between px-4 py-2 pl-0 mb-2 border-0 border-t-0 rounded-b-inherit text-inherit rounded-xl"
+                >
+                  <div class="flex items-center">
+                    <button
+                      class="leading-pro ease-in text-xs bg-150 w-6.5 h-6.5 p-1.2 rounded-3.5xl tracking-tight-rem bg-x-25 mr-4 mb-0 flex cursor-pointer items-center justify-center border border-solid border-emerald-500 border-transparent bg-transparent text-center align-middle font-bold uppercase text-emerald-500 transition-all hover:opacity-75"
+                    >
+                      <i
+                        class="fas fa-arrow-up text-3xs"
+                        aria-hidden="true"
+                      ></i>
+                    </button>
+                    <div class="flex flex-col">
+                      <h6
+                        class="mb-1 text-sm leading-normal dark:text-white text-slate-700"
+                      >
+                        Apple
+                      </h6>
+                      <span class="text-xs leading-tight dark:text-white/80"
+                        >27 March 2020, at 04:30 AM</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-center justify-center">
+                    <p
+                      class="relative z-10 inline-block m-0 text-sm font-semibold leading-normal text-transparent bg-gradient-to-tl from-green-600 to-lime-400 bg-clip-text"
+                    >
+                      + $ 2,000
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <h6
+                class="my-4 text-xs font-bold leading-tight uppercase dark:text-white text-slate-500"
+              >
+                Yesterday
+              </h6>
+              <ul class="flex flex-col pl-0 mb-0 rounded-lg">
+                <li
+                  class="relative flex justify-between px-4 py-2 pl-0 mb-2 border-0 rounded-t-inherit text-inherit rounded-xl"
+                >
+                  <div class="flex items-center">
+                    <button
+                      class="leading-pro ease-in text-xs bg-150 w-6.5 h-6.5 p-1.2 rounded-3.5xl tracking-tight-rem bg-x-25 mr-4 mb-0 flex cursor-pointer items-center justify-center border border-solid border-emerald-500 border-transparent bg-transparent text-center align-middle font-bold uppercase text-emerald-500 transition-all hover:opacity-75"
+                    >
+                      <i
+                        class="fas fa-arrow-up text-3xs"
+                        aria-hidden="true"
+                      ></i>
+                    </button>
+                    <div class="flex flex-col">
+                      <h6
+                        class="mb-1 text-sm leading-normal dark:text-white text-slate-700"
+                      >
+                        Stripe
+                      </h6>
+                      <span class="text-xs leading-tight dark:text-white/80"
+                        >26 March 2020, at 13:45 PM</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-center justify-center">
+                    <p
+                      class="relative z-10 inline-block m-0 text-sm font-semibold leading-normal text-transparent bg-gradient-to-tl from-green-600 to-lime-400 bg-clip-text"
+                    >
+                      + $ 750
+                    </p>
+                  </div>
+                </li>
+                <li
+                  class="relative flex justify-between px-4 py-2 pl-0 mb-2 border-0 border-t-0 text-inherit rounded-xl"
+                >
+                  <div class="flex items-center">
+                    <button
+                      class="leading-pro ease-in text-xs bg-150 w-6.5 h-6.5 p-1.2 rounded-3.5xl tracking-tight-rem bg-x-25 mr-4 mb-0 flex cursor-pointer items-center justify-center border border-solid border-emerald-500 border-transparent bg-transparent text-center align-middle font-bold uppercase text-emerald-500 transition-all hover:opacity-75"
+                    >
+                      <i
+                        class="fas fa-arrow-up text-3xs"
+                        aria-hidden="true"
+                      ></i>
+                    </button>
+                    <div class="flex flex-col">
+                      <h6
+                        class="mb-1 text-sm leading-normal dark:text-white text-slate-700"
+                      >
+                        HubSpot
+                      </h6>
+                      <span class="text-xs leading-tight dark:text-white/80"
+                        >26 March 2020, at 12:30 PM</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-center justify-center">
+                    <p
+                      class="relative z-10 inline-block m-0 text-sm font-semibold leading-normal text-transparent bg-gradient-to-tl from-green-600 to-lime-400 bg-clip-text"
+                    >
+                      + $ 1,000
+                    </p>
+                  </div>
+                </li>
+                <li
+                  class="relative flex justify-between px-4 py-2 pl-0 mb-2 border-0 border-t-0 text-inherit rounded-xl"
+                >
+                  <div class="flex items-center">
+                    <button
+                      class="leading-pro ease-in text-xs bg-150 w-6.5 h-6.5 p-1.2 rounded-3.5xl tracking-tight-rem bg-x-25 mr-4 mb-0 flex cursor-pointer items-center justify-center border border-solid border-emerald-500 border-transparent bg-transparent text-center align-middle font-bold uppercase text-emerald-500 transition-all hover:opacity-75"
+                    >
+                      <i
+                        class="fas fa-arrow-up text-3xs"
+                        aria-hidden="true"
+                      ></i>
+                    </button>
+                    <div class="flex flex-col">
+                      <h6
+                        class="mb-1 text-sm leading-normal dark:text-white text-slate-700"
+                      >
+                        Creative Tim
+                      </h6>
+                      <span class="text-xs leading-tight dark:text-white/80"
+                        >26 March 2020, at 08:30 AM</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-center justify-center">
+                    <p
+                      class="relative z-10 items-center inline-block m-0 text-sm font-semibold leading-normal text-transparent bg-gradient-to-tl from-green-600 to-lime-400 bg-clip-text"
+                    >
+                      + $ 2,500
+                    </p>
+                  </div>
+                </li>
+                <li
+                  class="relative flex justify-between px-4 py-2 pl-0 mb-2 border-0 border-t-0 rounded-b-inherit text-inherit rounded-xl"
+                >
+                  <div class="flex items-center">
+                    <button
+                      class="leading-pro ease-in text-xs bg-150 w-6.5 h-6.5 p-1.2 rounded-3.5xl tracking-tight-rem bg-x-25 mr-4 mb-0 flex cursor-pointer items-center justify-center border border-solid border-slate-700 border-transparent bg-transparent text-center align-middle font-bold uppercase text-slate-700 transition-all hover:opacity-75"
+                    >
+                      <i
+                        class="fas fa-exclamation text-3xs"
+                        aria-hidden="true"
+                      ></i>
+                    </button>
+                    <div class="flex flex-col">
+                      <h6
+                        class="mb-1 text-sm leading-normal dark:text-white text-slate-700"
+                      >
+                        Webflow
+                      </h6>
+                      <span class="text-xs leading-tight dark:text-white/80"
+                        >26 March 2020, at 05:00 AM</span
+                      >
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-center justify-center">
+                    <p
+                      class="flex items-center m-0 text-sm font-semibold leading-normal text-slate-700"
+                    >
+                      Pending
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container px-5 py-8 mx-auto">
+      <div class="w-full px-6 py-6 mx-auto">
+        <div class="flex flex-wrap -mx-3">
+          <div
+            class="w-full max-w-full px-3 mb-6 sm:w-1/2 sm:flex-none xl:mb-0 xl:w-1/4"
+          >
+            <div
+              class="relative flex flex-col min-w-0 break-words bg-white shadow-xl dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border"
+            >
+              <div class="flex-auto p-4">
+                <div class="flex flex-row -mx-3">
+                  <div class="flex-none w-2/3 max-w-full px-3">
+                    <div>
+                      <p
+                        class="mb-0 font-sans font-semibold leading-normal uppercase dark:text-white dark:opacity-60 text-sm"
+                      >
+                        Today's Money
+                      </p>
+                      <h5 class="mb-2 font-bold dark:text-white">$53,000</h5>
+                      <p class="mb-0 dark:text-white dark:opacity-60">
+                        <span
+                          class="font-bold leading-normal text-sm text-emerald-500"
+                          >+55%</span
+                        >
+                        since yesterday
+                      </p>
+                    </div>
+                  </div>
+                  <div class="px-3 text-right basis-1/3">
+                    <div
+                      class="inline-block w-12 h-12 text-center rounded-circle bg-gradient-to-tl from-blue-500 to-violet-500"
+                    >
+                      <i
+                        class="ni ni-money-coins text-lg relative top-3.5 text-white"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="w-full max-w-full px-3 mb-6 sm:w-1/2 sm:flex-none xl:mb-0 xl:w-1/4"
+          >
+            <div
+              class="relative flex flex-col min-w-0 break-words bg-white shadow-xl dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border"
+            >
+              <div class="flex-auto p-4">
+                <div class="flex flex-row -mx-3">
+                  <div class="flex-none w-2/3 max-w-full px-3">
+                    <div>
+                      <p
+                        class="mb-0 font-sans font-semibold leading-normal uppercase dark:text-white dark:opacity-60 text-sm"
+                      >
+                        Today's Users
+                      </p>
+                      <h5 class="mb-2 font-bold dark:text-white">2,300</h5>
+                      <p class="mb-0 dark:text-white dark:opacity-60">
+                        <span
+                          class="font-bold leading-normal text-sm text-emerald-500"
+                          >+3%</span
+                        >
+                        since last week
+                      </p>
+                    </div>
+                  </div>
+                  <div class="px-3 text-right basis-1/3">
+                    <div
+                      class="inline-block w-12 h-12 text-center rounded-circle bg-gradient-to-tl from-red-600 to-orange-600"
+                    >
+                      <i
+                        class="ni ni-world text-lg relative top-3.5 text-white"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="w-full max-w-full px-3 mb-6 sm:w-1/2 sm:flex-none xl:mb-0 xl:w-1/4"
+          >
+            <div
+              class="relative flex flex-col min-w-0 break-words bg-white shadow-xl dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border"
+            >
+              <div class="flex-auto p-4">
+                <div class="flex flex-row -mx-3">
+                  <div class="flex-none w-2/3 max-w-full px-3">
+                    <div>
+                      <p
+                        class="mb-0 font-sans font-semibold leading-normal uppercase dark:text-white dark:opacity-60 text-sm"
+                      >
+                        New Clients
+                      </p>
+                      <h5 class="mb-2 font-bold dark:text-white">+3,462</h5>
+                      <p class="mb-0 dark:text-white dark:opacity-60">
+                        <span
+                          class="font-bold leading-normal text-red-600 text-sm"
+                          >-2%</span
+                        >
+                        since last quarter
+                      </p>
+                    </div>
+                  </div>
+                  <div class="px-3 text-right basis-1/3">
+                    <div
+                      class="inline-block w-12 h-12 text-center rounded-circle bg-gradient-to-tl from-emerald-500 to-teal-400"
+                    >
+                      <i
+                        class="ni ni-paper-diploma text-lg relative top-3.5 text-white"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full max-w-full px-3 sm:w-1/2 sm:flex-none xl:w-1/4">
+            <div
+              class="relative flex flex-col min-w-0 break-words bg-white shadow-xl dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border"
+            >
+              <div class="flex-auto p-4">
+                <div class="flex flex-row -mx-3">
+                  <div class="flex-none w-2/3 max-w-full px-3">
+                    <div>
+                      <p
+                        class="mb-0 font-sans font-semibold leading-normal uppercase dark:text-white dark:opacity-60 text-sm"
+                      >
+                        Sales
+                      </p>
+                      <h5 class="mb-2 font-bold dark:text-white">$103,430</h5>
+                      <p class="mb-0 dark:text-white dark:opacity-60">
+                        <span
+                          class="font-bold leading-normal text-sm text-emerald-500"
+                          >+5%</span
+                        >
+                        than last month
+                      </p>
+                    </div>
+                  </div>
+                  <div class="px-3 text-right basis-1/3">
+                    <div
+                      class="inline-block w-12 h-12 text-center rounded-circle bg-gradient-to-tl from-orange-500 to-yellow-500"
+                    >
+                      <i
+                        class="ni ni-cart text-lg relative top-3.5 text-white"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap mt-6 -mx-3">
+          <div class="w-full max-w-full px-3 mt-0 lg:w-7/12 lg:flex-none">
+            <div
+              class="border-black/12.5 dark:bg-slate-850 dark:shadow-dark-xl shadow-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border"
+            >
+              <div
+                class="border-black/12.5 mb-0 rounded-t-2xl border-b-0 border-solid p-6 pt-4 pb-0"
+              >
+                <h6 class="capitalize dark:text-white">Sales overview</h6>
+                <p
+                  class="mb-0 leading-normal dark:text-white dark:opacity-60 text-sm"
+                >
+                  <i
+                    class="fa fa-arrow-up text-emerald-500"
+                    aria-hidden="true"
+                  ></i>
+                  <span class="font-semibold">4% more</span> in 2021
+                </p>
+              </div>
+              <div class="flex-auto p-4">
+                <div>
+                  <canvas
+                    id="chart-line"
+                    height="600"
+                    width="1388"
+                    style="
+                      display: block;
+                      box-sizing: border-box;
+                      height: 300px;
+                      width: 694.2px;
+                    "
+                  ></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full max-w-full px-3 lg:w-5/12 lg:flex-none">
+            <div
+              slider=""
+              class="relative w-full h-full overflow-hidden rounded-2xl"
+            >
+              <div
+                slide=""
+                class="absolute w-full h-full transition-all duration-500"
+                style="transform: translateX(0%)"
+              >
+                <img
+                  class="object-cover h-full"
+                  src="../assets/img/carousel-1.jpg"
+                  alt="carousel image"
+                />
+                <div
+                  class="block text-start ml-12 left-0 bottom-0 absolute right-[15%] pt-5 pb-5 text-white"
+                >
+                  <div
+                    class="inline-block w-8 h-8 mb-4 text-center text-black bg-white bg-center rounded-lg fill-current stroke-none"
+                  >
+                    <i
+                      class="top-0.75 text-xxs relative text-slate-700 ni ni-camera-compact"
+                    ></i>
+                  </div>
+                  <h5 class="mb-1 text-white">Get started with Argon</h5>
+                  <p class="dark:opacity-80">
+                    There’s nothing I really wanted to do in life that I wasn’t
+                    able to get good at.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                slide=""
+                class="absolute w-full h-full transition-all duration-500"
+                style="transform: translateX(100%)"
+              >
+                <img
+                  class="object-cover h-full"
+                  src="../assets/img/carousel-2.jpg"
+                  alt="carousel image"
+                />
+                <div
+                  class="block text-start ml-12 left-0 bottom-0 absolute right-[15%] pt-5 pb-5 text-white"
+                >
+                  <div
+                    class="inline-block w-8 h-8 mb-4 text-center text-black bg-white bg-center rounded-lg fill-current stroke-none"
+                  >
+                    <i
+                      class="top-0.75 text-xxs relative text-slate-700 ni ni-bulb-61"
+                    ></i>
+                  </div>
+                  <h5 class="mb-1 text-white">
+                    Faster way to create web pages
+                  </h5>
+                  <p class="dark:opacity-80">
+                    That’s my skill. I’m not really specifically talented at
+                    anything except for the ability to learn.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                slide=""
+                class="absolute w-full h-full transition-all duration-500"
+                style="transform: translateX(200%)"
+              >
+                <img
+                  class="object-cover h-full"
+                  src="../assets/img/carousel-3.jpg"
+                  alt="carousel image"
+                />
+                <div
+                  class="block text-start ml-12 left-0 bottom-0 absolute right-[15%] pt-5 pb-5 text-white"
+                >
+                  <div
+                    class="inline-block w-8 h-8 mb-4 text-center text-black bg-white bg-center rounded-lg fill-current stroke-none"
+                  >
+                    <i
+                      class="top-0.75 text-xxs relative text-slate-700 ni ni-trophy"
+                    ></i>
+                  </div>
+                  <h5 class="mb-1 text-white">
+                    Share with us your design tips!
+                  </h5>
+                  <p class="dark:opacity-80">
+                    Don’t be afraid to be wrong because you can’t learn anything
+                    from a compliment.
+                  </p>
+                </div>
+              </div>
+
+              <button
+                btn-next=""
+                class="absolute z-10 w-10 h-10 p-2 text-white border-none opacity-50 cursor-pointer text-lg hover:opacity-100 far fa-chevron-right active:scale-110 top-6 right-4"
+                aria-hidden="true"
+              ></button>
+              <button
+                btn-prev=""
+                class="absolute z-10 w-10 h-10 p-2 text-white border-none opacity-50 cursor-pointer text-lg hover:opacity-100 far fa-chevron-left active:scale-110 top-6 right-16"
+                aria-hidden="true"
+              ></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap mt-6 -mx-3">
+          <div
+            class="w-full max-w-full px-3 mt-0 mb-6 lg:mb-0 lg:w-7/12 lg:flex-none"
+          >
+            <div
+              class="relative flex flex-col min-w-0 break-words bg-white border-0 border-solid shadow-xl dark:bg-slate-850 dark:shadow-dark-xl dark:bg-gray-950 border-black-125 rounded-2xl bg-clip-border"
+            >
+              <div class="p-4 pb-0 mb-0 rounded-t-4">
+                <div class="flex justify-between">
+                  <h6 class="mb-2 dark:text-white">Sales by Country</h6>
+                </div>
+              </div>
+              <div class="overflow-x-auto">
+                <table
+                  class="items-center w-full mb-4 align-top border-collapse border-gray-200 dark:border-white/40"
+                >
+                  <tbody>
+                    <tr>
+                      <td
+                        class="p-2 align-middle bg-transparent border-b w-3/10 whitespace-nowrap dark:border-white/40"
+                      >
+                        <div class="flex items-center px-2 py-1">
+                          <div>
+                            <img
+                              src="../assets/img/icons/flags/US.png"
+                              alt="Country flag"
+                            />
+                          </div>
+                          <div class="ml-6">
+                            <p
+                              class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                            >
+                              Country:
+                            </p>
+                            <h6
+                              class="mb-0 leading-normal text-sm dark:text-white"
+                            >
+                              United States
+                            </h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="p-2 align-middle bg-transparent border-b whitespace-nowrap dark:border-white/40"
+                      >
+                        <div class="text-center">
+                          <p
+                            class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                          >
+                            Sales:
+                          </p>
+                          <h6
+                            class="mb-0 leading-normal text-sm dark:text-white"
+                          >
+                            2500
+                          </h6>
+                        </div>
+                      </td>
+                      <td
+                        class="p-2 align-middle bg-transparent border-b whitespace-nowrap dark:border-white/40"
+                      >
+                        <div class="text-center">
+                          <p
+                            class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                          >
+                            Value:
+                          </p>
+                          <h6
+                            class="mb-0 leading-normal text-sm dark:text-white"
+                          >
+                            $230,900
+                          </h6>
+                        </div>
+                      </td>
+                      <td
+                        class="p-2 leading-normal align-middle bg-transparent border-b text-sm whitespace-nowrap dark:border-white/40"
+                      >
+                        <div class="flex-1 text-center">
+                          <p
+                            class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                          >
+                            Bounce:
+                          </p>
+                          <h6
+                            class="mb-0 leading-normal text-sm dark:text-white"
+                          >
+                            29.9%
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="p-2 align-middle bg-transparent border-b w-3/10 whitespace-nowrap dark:border-white/40"
+                      >
+                        <div class="flex items-center px-2 py-1">
+                          <div>
+                            <img
+                              src="../assets/img/icons/flags/DE.png"
+                              alt="Country flag"
+                            />
+                          </div>
+                          <div class="ml-6">
+                            <p
+                              class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                            >
+                              Country:
+                            </p>
+                            <h6
+                              class="mb-0 leading-normal text-sm dark:text-white"
+                            >
+                              Germany
+                            </h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="p-2 align-middle bg-transparent border-b whitespace-nowrap dark:border-white/40"
+                      >
+                        <div class="text-center">
+                          <p
+                            class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                          >
+                            Sales:
+                          </p>
+                          <h6
+                            class="mb-0 leading-normal text-sm dark:text-white"
+                          >
+                            3.900
+                          </h6>
+                        </div>
+                      </td>
+                      <td
+                        class="p-2 align-middle bg-transparent border-b whitespace-nowrap dark:border-white/40"
+                      >
+                        <div class="text-center">
+                          <p
+                            class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                          >
+                            Value:
+                          </p>
+                          <h6
+                            class="mb-0 leading-normal text-sm dark:text-white"
+                          >
+                            $440,000
+                          </h6>
+                        </div>
+                      </td>
+                      <td
+                        class="p-2 leading-normal align-middle bg-transparent border-b text-sm whitespace-nowrap dark:border-white/40"
+                      >
+                        <div class="flex-1 text-center">
+                          <p
+                            class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                          >
+                            Bounce:
+                          </p>
+                          <h6
+                            class="mb-0 leading-normal text-sm dark:text-white"
+                          >
+                            40.22%
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="p-2 align-middle bg-transparent border-b w-3/10 whitespace-nowrap dark:border-white/40"
+                      >
+                        <div class="flex items-center px-2 py-1">
+                          <div>
+                            <img
+                              src="../assets/img/icons/flags/GB.png"
+                              alt="Country flag"
+                            />
+                          </div>
+                          <div class="ml-6">
+                            <p
+                              class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                            >
+                              Country:
+                            </p>
+                            <h6
+                              class="mb-0 leading-normal text-sm dark:text-white"
+                            >
+                              Great Britain
+                            </h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="p-2 align-middle bg-transparent border-b whitespace-nowrap dark:border-white/40"
+                      >
+                        <div class="text-center">
+                          <p
+                            class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                          >
+                            Sales:
+                          </p>
+                          <h6
+                            class="mb-0 leading-normal text-sm dark:text-white"
+                          >
+                            1.400
+                          </h6>
+                        </div>
+                      </td>
+                      <td
+                        class="p-2 align-middle bg-transparent border-b whitespace-nowrap dark:border-white/40"
+                      >
+                        <div class="text-center">
+                          <p
+                            class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                          >
+                            Value:
+                          </p>
+                          <h6
+                            class="mb-0 leading-normal text-sm dark:text-white"
+                          >
+                            $190,700
+                          </h6>
+                        </div>
+                      </td>
+                      <td
+                        class="p-2 leading-normal align-middle bg-transparent border-b text-sm whitespace-nowrap dark:border-white/40"
+                      >
+                        <div class="flex-1 text-center">
+                          <p
+                            class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                          >
+                            Bounce:
+                          </p>
+                          <h6
+                            class="mb-0 leading-normal text-sm dark:text-white"
+                          >
+                            23.44%
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="p-2 align-middle bg-transparent border-0 w-3/10 whitespace-nowrap"
+                      >
+                        <div class="flex items-center px-2 py-1">
+                          <div>
+                            <img
+                              src="../assets/img/icons/flags/BR.png"
+                              alt="Country flag"
+                            />
+                          </div>
+                          <div class="ml-6">
+                            <p
+                              class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                            >
+                              Country:
+                            </p>
+                            <h6
+                              class="mb-0 leading-normal text-sm dark:text-white"
+                            >
+                              Brasil
+                            </h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="p-2 align-middle bg-transparent border-0 whitespace-nowrap"
+                      >
+                        <div class="text-center">
+                          <p
+                            class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                          >
+                            Sales:
+                          </p>
+                          <h6
+                            class="mb-0 leading-normal text-sm dark:text-white"
+                          >
+                            562
+                          </h6>
+                        </div>
+                      </td>
+                      <td
+                        class="p-2 align-middle bg-transparent border-0 whitespace-nowrap"
+                      >
+                        <div class="text-center">
+                          <p
+                            class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                          >
+                            Value:
+                          </p>
+                          <h6
+                            class="mb-0 leading-normal text-sm dark:text-white"
+                          >
+                            $143,960
+                          </h6>
+                        </div>
+                      </td>
+                      <td
+                        class="p-2 leading-normal align-middle bg-transparent border-0 text-sm whitespace-nowrap"
+                      >
+                        <div class="flex-1 text-center">
+                          <p
+                            class="mb-0 font-semibold leading-tight dark:text-white text-xs dark:opacity-60"
+                          >
+                            Bounce:
+                          </p>
+                          <h6
+                            class="mb-0 leading-normal text-sm dark:text-white"
+                          >
+                            32.14%
+                          </h6>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="w-full max-w-full px-3 mt-0 lg:w-5/12 lg:flex-none">
+            <div
+              class="border-black/12.5 shadow-xl dark:bg-slate-850 dark:shadow-dark-xl relative flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border"
+            >
+              <div class="p-4 pb-0 rounded-t-4">
+                <h6 class="mb-0 dark:text-white">Categories</h6>
+              </div>
+              <div class="flex-auto p-4">
+                <ul class="flex flex-col pl-0 mb-0 rounded-lg">
+                  <li
+                    class="relative flex justify-between py-2 pr-4 mb-2 border-0 rounded-t-lg rounded-xl text-inherit"
+                  >
+                    <div class="flex items-center">
+                      <div
+                        class="inline-block w-8 h-8 mr-4 text-center text-black bg-center shadow-sm fill-current stroke-none bg-gradient-to-tl from-zinc-800 to-zinc-700 dark:bg-gradient-to-tl dark:from-slate-750 dark:to-gray-850 rounded-xl"
+                      >
+                        <i
+                          class="text-white ni ni-mobile-button relative top-0.75 text-xxs"
+                        ></i>
+                      </div>
+                      <div class="flex flex-col">
+                        <h6
+                          class="mb-1 leading-normal text-sm text-slate-700 dark:text-white"
+                        >
+                          Devices
+                        </h6>
+                        <span class="leading-tight dark:text-white/80 text-xs"
+                          >250 in stock,
+                          <span class="font-semibold">346+ sold</span></span
+                        >
+                      </div>
+                    </div>
+                    <div class="flex">
+                      <button
+                        class="group ease-in leading-pro text-xs rounded-3.5xl p-1.2 h-6.5 w-6.5 mx-0 my-auto inline-block cursor-pointer border-0 bg-transparent text-center align-middle font-bold text-slate-700 shadow-none transition-all dark:text-white"
+                      >
+                        <i
+                          class="ni ease-bounce text-2xs group-hover:translate-x-1.25 ni-bold-right transition-all duration-200"
+                          aria-hidden="true"
+                        ></i>
+                      </button>
+                    </div>
+                  </li>
+                  <li
+                    class="relative flex justify-between py-2 pr-4 mb-2 border-0 rounded-xl text-inherit"
+                  >
+                    <div class="flex items-center">
+                      <div
+                        class="inline-block w-8 h-8 mr-4 text-center text-black bg-center shadow-sm fill-current stroke-none bg-gradient-to-tl from-zinc-800 to-zinc-700 dark:bg-gradient-to-tl dark:from-slate-750 dark:to-gray-850 rounded-xl"
+                      >
+                        <i
+                          class="text-white ni ni-tag relative top-0.75 text-xxs"
+                        ></i>
+                      </div>
+                      <div class="flex flex-col">
+                        <h6
+                          class="mb-1 leading-normal text-sm text-slate-700 dark:text-white"
+                        >
+                          Tickets
+                        </h6>
+                        <span class="leading-tight dark:text-white/80 text-xs"
+                          >123 closed,
+                          <span class="font-semibold">15 open</span></span
+                        >
+                      </div>
+                    </div>
+                    <div class="flex">
+                      <button
+                        class="group ease-in leading-pro text-xs rounded-3.5xl p-1.2 h-6.5 w-6.5 mx-0 my-auto inline-block cursor-pointer border-0 bg-transparent text-center align-middle font-bold text-slate-700 shadow-none transition-all dark:text-white"
+                      >
+                        <i
+                          class="ni ease-bounce text-2xs group-hover:translate-x-1.25 ni-bold-right transition-all duration-200"
+                          aria-hidden="true"
+                        ></i>
+                      </button>
+                    </div>
+                  </li>
+                  <li
+                    class="relative flex justify-between py-2 pr-4 mb-2 border-0 rounded-b-lg rounded-xl text-inherit"
+                  >
+                    <div class="flex items-center">
+                      <div
+                        class="inline-block w-8 h-8 mr-4 text-center text-black bg-center shadow-sm fill-current stroke-none bg-gradient-to-tl from-zinc-800 to-zinc-700 dark:bg-gradient-to-tl dark:from-slate-750 dark:to-gray-850 rounded-xl"
+                      >
+                        <i
+                          class="text-white ni ni-box-2 relative top-0.75 text-xxs"
+                        ></i>
+                      </div>
+                      <div class="flex flex-col">
+                        <h6
+                          class="mb-1 leading-normal text-sm text-slate-700 dark:text-white"
+                        >
+                          Error logs
+                        </h6>
+                        <span class="leading-tight dark:text-white/80 text-xs"
+                          >1 is active,
+                          <span class="font-semibold">40 closed</span></span
+                        >
+                      </div>
+                    </div>
+                    <div class="flex">
+                      <button
+                        class="group ease-in leading-pro text-xs rounded-3.5xl p-1.2 h-6.5 w-6.5 mx-0 my-auto inline-block cursor-pointer border-0 bg-transparent text-center align-middle font-bold text-slate-700 shadow-none transition-all dark:text-white"
+                      >
+                        <i
+                          class="ni ease-bounce text-2xs group-hover:translate-x-1.25 ni-bold-right transition-all duration-200"
+                          aria-hidden="true"
+                        ></i>
+                      </button>
+                    </div>
+                  </li>
+                  <li
+                    class="relative flex justify-between py-2 pr-4 border-0 rounded-b-lg rounded-xl text-inherit"
+                  >
+                    <div class="flex items-center">
+                      <div
+                        class="inline-block w-8 h-8 mr-4 text-center text-black bg-center shadow-sm fill-current stroke-none bg-gradient-to-tl from-zinc-800 to-zinc-700 dark:bg-gradient-to-tl dark:from-slate-750 dark:to-gray-850 rounded-xl"
+                      >
+                        <i
+                          class="text-white ni ni-satisfied relative top-0.75 text-xxs"
+                        ></i>
+                      </div>
+                      <div class="flex flex-col">
+                        <h6
+                          class="mb-1 leading-normal text-sm text-slate-700 dark:text-white"
+                        >
+                          Happy users
+                        </h6>
+                        <span class="leading-tight dark:text-white/80 text-xs"
+                          ><span class="font-semibold">+ 430 </span></span
+                        >
+                      </div>
+                    </div>
+                    <div class="flex">
+                      <button
+                        class="group ease-in leading-pro text-xs rounded-3.5xl p-1.2 h-6.5 w-6.5 mx-0 my-auto inline-block cursor-pointer border-0 bg-transparent text-center align-middle font-bold text-slate-700 shadow-none transition-all dark:text-white"
+                      >
+                        <i
+                          class="ni ease-bounce text-2xs group-hover:translate-x-1.25 ni-bold-right transition-all duration-200"
+                          aria-hidden="true"
+                        ></i>
+                      </button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="pt-4">
+          <div class="w-full px-6 mx-auto">
+            <div class="flex flex-wrap items-center -mx-3 lg:justify-between">
+              <div
+                class="w-full max-w-full px-3 mt-0 mb-6 shrink-0 lg:mb-0 lg:w-1/2 lg:flex-none"
+              >
+                <div
+                  class="leading-normal text-center text-sm text-slate-500 lg:text-left"
+                >
+                  ©
+                  <script>
+                    document.write(new Date().getFullYear() + ",");
+                  </script>
+                  2024, made with
+                  <i class="fa fa-heart" aria-hidden="true"></i> by
+                  <a
+                    href="https://www.creative-tim.com"
+                    class="font-semibold text-slate-700 dark:text-white"
+                    target="_blank"
+                    >Creative Tim</a
+                  >
+                  for a better web.
+                </div>
+              </div>
+              <div
+                class="w-full max-w-full px-3 mt-0 shrink-0 lg:w-1/2 lg:flex-none"
+              >
+                <ul
+                  class="flex flex-wrap justify-center pl-0 mb-0 list-none lg:justify-end"
+                >
+                  <li class="nav-item">
+                    <a
+                      href="https://www.creative-tim.com"
+                      class="block px-4 pt-0 pb-1 font-normal transition-colors ease-in-out text-sm text-slate-500"
+                      target="_blank"
+                      >Creative Tim</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="https://www.creative-tim.com/presentation"
+                      class="block px-4 pt-0 pb-1 font-normal transition-colors ease-in-out text-sm text-slate-500"
+                      target="_blank"
+                      >About Us</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="https://creative-tim.com/blog"
+                      class="block px-4 pt-0 pb-1 font-normal transition-colors ease-in-out text-sm text-slate-500"
+                      target="_blank"
+                      >Blog</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="https://www.creative-tim.com/license"
+                      class="block px-4 pt-0 pb-1 pr-0 font-normal transition-colors ease-in-out text-sm text-slate-500"
+                      target="_blank"
+                      >License</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 mb-6 lg:w-1/3 lg:mb-0">
+            <div class="h-full text-center">
+              <img
+                alt="testimonial"
+                class="inline-block object-cover object-center w-20 h-20 mb-8 bg-gray-100 border-2 border-gray-200 rounded-full"
+                src="https://dummyimage.com/302x302"
+              />
+              <p class="leading-relaxed">
+                TMMMS helps transport your products with ease while focusing in
+                other part of your business
+              </p>
+              <span class="inline-block w-10 h-1 mt-6 mb-4 bg-blue-500 rounded">
+              </span>
+              <h2
+                class="text-sm font-medium tracking-wider text-gray-900 title-font"
+              >
+                Muhammed Abdullahi
+              </h2>
+              <p class="text-gray-500">Manager Fara fara Oil & Gas</p>
+            </div>
+          </div>
+          <div class="p-4 mb-6 lg:w-1/3 lg:mb-0">
+            <div class="h-full text-center">
+              <img
+                alt="testimonial"
+                class="inline-block object-cover object-center w-20 h-20 mb-8 bg-gray-100 border-2 border-gray-200 rounded-full"
+                src="https://dummyimage.com/300x300"
+              />
+              <p class="leading-relaxed">
+                Edison bulb retro cloud bread echo park, helvetica stumptown
+                taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
+                ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
+                adaptogen squid fanny pack vaporware.
+              </p>
+              <span
+                class="inline-block w-10 h-1 mt-6 mb-4 bg-blue-500 rounded"
+              ></span>
+              <h2
+                class="text-sm font-medium tracking-wider text-gray-900 title-font"
+              >
+                ALPER KAMU
+              </h2>
+              <p class="text-gray-500">UI Develeoper</p>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/3 lg:mb-0">
+            <div class="h-full text-center">
+              <img
+                alt="testimonial"
+                class="inline-block object-cover object-center w-20 h-20 mb-8 bg-gray-100 border-2 border-gray-200 rounded-full"
+                src="https://dummyimage.com/305x305"
+              />
+              <p class="leading-relaxed">
+                Edison bulb retro cloud bread echo park, helvetica stumptown
+                taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
+                ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
+                adaptogen squid fanny pack vaporware.
+              </p>
+              <span
+                class="inline-block w-10 h-1 mt-6 mb-4 bg-blue-500 rounded"
+              ></span>
+              <h2
+                class="text-sm font-medium tracking-wider text-gray-900 title-font"
+              >
+                HENRY LETHAM
+              </h2>
+              <p class="text-gray-500">CTO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="relative text-gray-600 body-font">
+      <div class="container flex flex-wrap px-5 py-24 mx-auto sm:flex-nowrap">
+        <div
+          class="relative flex items-end justify-start p-10 overflow-hidden bg-gray-300 rounded-lg lg:w-2/3 md:w-1/2 sm:mr-10"
+        >
+          <iframe
+            width="100%"
+            height="100%"
+            class="absolute inset-0"
+            frameborder="0"
+            title="map"
+            marginheight="0"
+            marginwidth="0"
+            scrolling="no"
+            src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+            style="filter: grayscale(1) contrast(1.2) opacity(0.4)"
+          ></iframe>
+          <div class="relative flex flex-wrap py-6 bg-white rounded shadow-md">
+            <div class="px-6 lg:w-1/2">
+              <h2
+                class="text-xs font-semibold tracking-widest text-gray-900 title-font"
+              >
+                ADDRESS
+              </h2>
+              <p class="mt-1">
+                No. 123 Hadeja Road, Nas LGA, Kano State, Nigeria
+              </p>
+            </div>
+            <div class="px-6 mt-4 lg:w-1/2 lg:mt-0">
+              <h2
+                class="text-xs font-semibold tracking-widest text-gray-900 title-font"
+              >
+                EMAIL
+              </h2>
+              <a class="leading-relaxed text-blue-500">support@tmmms.com</a>
+              <h2
+                class="mt-4 text-xs font-semibold tracking-widest text-gray-900 title-font"
+              >
+                PHONE
+              </h2>
+              <p class="leading-relaxed">+234-901-456-7890</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col w-full p-4 mt-8 bg-white lg:w-1/3 md:w-1/2 md:ml-auto md:py-8 md:mt-0"
+        >
+          <h2 class="mb-1 text-lg font-medium text-gray-900 title-font">
+            Feedback
+          </h2>
+          <p class="mb-5 leading-relaxed text-gray-600">
+            Your feedbacks helps us serve you better.
+          </p>
+          <div class="relative mb-4">
+            <label for="name" class="text-sm leading-7 text-gray-600"
+              >Name</label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white border border-gray-300 rounded outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
+            />
+          </div>
+          <div class="relative mb-4">
+            <label for="email" class="text-sm leading-7 text-gray-600"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white border border-gray-300 rounded outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
+            />
+          </div>
+          <div class="relative mb-4">
+            <label for="message" class="text-sm leading-7 text-gray-600"
+              >Message</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              class="w-full h-32 px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-white border border-gray-300 rounded outline-none resize-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
+            ></textarea>
+          </div>
+          <button
+            class="px-6 py-2 text-lg text-white bg-blue-500 border-0 rounded focus:outline-none hover:bg-blue-600"
+          >
+            Button
+          </button>
+          <p class="mt-3 text-xs text-gray-500">
+            We appreciate your feedbacks!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-16 text-sm text-center text-black dark:text-white/70">
+      TMMMS &copy; 2024
+    </footer>
+
+    <!-- Footer -->
+    <footer class="text-gray-600 body-font">
+      <div
+        class="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap"
+      >
+        <div
+          class="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left"
+        >
+          <a
+            class="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-10 h-10 p-2 text-white bg-blue-500 rounded-full"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+              ></path>
+            </svg>
+            <span class="ml-3 text-xl">Tailblocks</span>
+          </a>
+          <p class="mt-2 text-sm text-gray-500">
+            Air plant banjo lyft occupy retro adaptogen indego
+          </p>
+        </div>
+        <div
+          class="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left"
+        >
+          <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+            <h2
+              class="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font"
+            >
+              QUICK LINKS
+            </h2>
+            <nav class="mb-10 list-none">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Home</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">About</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Services</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Contact</a>
+              </li>
+            </nav>
+          </div>
+          <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+            <h2
+              class="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font"
+            >
+              QUICK LINKS
+            </h2>
+            <nav class="mb-10 list-none">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Blogs</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Analysis</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Faqs</a>
+              </li>
+            </nav>
+          </div>
+          <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+            <h2
+              class="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font"
+            >
+              CATEGORIES
+            </h2>
+            <nav class="mb-10 list-none">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              </li>
+            </nav>
+          </div>
+          <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+            <h2
+              class="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font"
+            >
+              JOIN US TODAY
+            </h2>
+            <nav class="mb-10 list-none">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Company</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Transporter</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Deport</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Union</a>
+              </li>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="bg-gray-100">
+        <div
+          class="container flex flex-col flex-wrap px-5 py-4 mx-auto sm:flex-row"
+        >
+          <p class="text-sm text-center text-gray-500 sm:text-left">
+            © 2020 Tailblocks —
+            <a
+              href="https://twitter.com/knyttneve"
+              rel="noopener noreferrer"
+              class="ml-1 text-gray-600"
+              target="_blank"
+              >@knyttneve</a
+            >
+          </p>
+          <span
+            class="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start"
+          >
+            <a class="text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                ></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+                ></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path
+                  d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+                ></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg
+                fill="currentColor"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="0"
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="none"
+                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                ></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FontAwesome for icons -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Script to toggle mobile menu -->
+    <script>
+      const menuButton = document.getElementById("mobile-menu-button");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>

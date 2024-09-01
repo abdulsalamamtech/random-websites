@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Flow</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="./cdn.tailwind/cdn.tailwindcss.com.3.4.5.js"></script>
+
+</head>
+<body class="font-sans bg-gray-100">
+    <div class="container px-4 py-8 mx-auto">
+        <h1 class="mb-8 text-3xl font-bold text-center text-gray-800">The Checkout Flow</h1>
+
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <h2 class="mb-4 text-xl font-bold text-gray-800">My Cart</h2>
+                <div class="grid grid-cols-1 gap-4 md:grid-cols-1">
+                    <div class="flex items-center p-4 bg-gray-100 rounded-lg">
+                        <img src="https://picsum.photos/60/60" alt="Product Image" class="object-cover w-16 h-16 mr-4 rounded-full">
+                        <div>
+                            <h3 class="font-medium text-gray-800">Men's Gown</h3>
+                            <p class="text-gray-600">₦200,000</p>
+                        </div>
+                        <div class="flex items-center ml-auto">
+                            <button class="inline-flex items-center px-4 py-2 font-bold text-white bg-gray-400 rounded">
+                                <span>-</span>
+                            </button>
+                            <span class="mx-4 font-medium text-gray-800">1</span>
+                            <button class="inline-flex items-center px-4 py-2 font-bold text-white bg-gray-400 rounded">
+                                <span>+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-4 bg-gray-100 rounded-lg">
+                        <img src="https://picsum.photos/60/60" alt="Product Image" class="object-cover w-16 h-16 mr-4 rounded-full">
+                        <div>
+                            <h3 class="font-medium text-gray-800">Men's Gown</h3>
+                            <p class="text-gray-600">₦200,000</p>
+                        </div>
+                        <div class="flex items-center ml-auto">
+                            <button class="inline-flex items-center px-4 py-2 font-bold text-white bg-gray-400 rounded">
+                                <span>-</span>
+                            </button>
+                            <span class="mx-4 font-medium text-gray-800">3</span>
+                            <button class="inline-flex items-center px-4 py-2 font-bold text-white bg-gray-400 rounded">
+                                <span>+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-4 bg-gray-100 rounded-lg">
+                        <img src="https://picsum.photos/60/60" alt="Product Image" class="object-cover w-16 h-16 mr-4 rounded-full">
+                        <div>
+                            <h3 class="font-medium text-gray-800">Men's Cap</h3>
+                            <p class="text-gray-600">₦200,000</p>
+                        </div>
+                        <div class="flex items-center ml-auto">
+                            <button class="inline-flex items-center px-4 py-2 font-bold text-white bg-gray-400 rounded">
+                                <span>-</span>
+                            </button>
+                            <span class="mx-4 font-medium text-gray-800">2</span>
+                            <button class="inline-flex items-center px-4 py-2 font-bold text-white bg-gray-400 rounded">
+                                <span>+</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex items-center p-4 bg-gray-100 rounded-lg">
+                        <img src="https://picsum.photos/60/60" alt="Product Image" class="object-cover w-16 h-16 mr-4 rounded-full">
+                        <div>
+                            <h3 class="font-medium text-gray-800">Men's Gown</h3>
+                            <p class="text-gray-600">₦200,000</p>
+                        </div>
+                        <div class="flex items-center ml-auto">
+                            <button class="inline-flex items-center px-4 py-2 font-bold text-white bg-gray-400 rounded">
+                                <span>-</span>
+                            </button>
+                            <span class="mx-4 font-medium text-gray-800">3</span>
+                            <button class="inline-flex items-center px-4 py-2 font-bold text-white bg-gray-400 rounded">
+                                <span>+</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between mt-6">
+                    <p class="font-medium text-gray-800">Total Price</p>
+                    <p class="text-xl font-bold text-gray-800">₦1.2 Million</p>
+                </div>
+                <div class="mt-4">
+                    <button class="px-4 py-2 font-bold text-white bg-red-500 rounded hover:bg-red-600 focus:outline-none focus:shadow-outline">
+                        Checkout <i class="fas fa-shopping-cart"></i>
+                    </button>
+                </div>
+                <div class="flex justify-between mt-6">
+                    <a href="#" class="text-gray-600 hover:text-gray-800">Home</a>
+                    <a href="#" class="text-gray-600 hover:text-gray-800">Cart</a>
+                    <a href="#" class="text-gray-600 hover:text-gray-800">Orders</a>
+                    <a href="#" class="text-gray-600 hover:text-gray-800">Profile</a>
+                </div>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <h2 class="mb-4 text-xl font-bold text-gray-800">Checkout</h2>
+                <div class="mb-4">
+                    <h3 class="mb-2 font-medium text-gray-800">Shipping Address</h3>
+                    <div class="flex items-center p-4 bg-gray-100 rounded-lg">
+                        <i class="mr-4 text-gray-800 fas fa-map-marker-alt"></i>
+                        <div>
+                            <p class="font-medium text-gray-800">Home</p>
+                            <p class="text-gray-600">Bama road, maiduguri</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <h3 class="mb-2 font-medium text-gray-800">Order List</h3>
+                    <div class="grid grid-cols-1 gap-4 md:grid-cols-1">
+                        <div class="flex items-center p-4 bg-gray-100 rounded-lg">
+                            <img src="https://picsum.photos/60/60" alt="Product Image" class="object-cover w-16 h-16 mr-4 rounded-full">
+                            <div>
+                                <h3 class="font-medium text-gray-800">Men's Gown</h3>
+                                <p class="text-gray-600">₦200,000</p>
+                            </div>
+                            <div class="flex items-center ml-auto">
+                                <span class="mx-4 font-medium text-gray-800">1</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center p-4 bg-gray-100 rounded-lg">
+                            <img src="https://picsum.photos/60/60" alt="Product Image" class="object-cover w-16 h-16 mr-4 rounded-full">
+                            <div>
+                                <h3 class="font-medium text-gray-800">Men's Gown</h3>
+                                <p class="text-gray-600">₦200,000</p>
+                            </div>
+                            <div class="flex items-center ml-auto">
+                                <span class="mx-4 font-medium text-gray-800">3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <button class="w-full px-4 py-2 font-bold text-white bg-red-500 rounded hover:bg-red-600 focus:outline-none focus:shadow-outline">
+                        Continue to payment
+                    </button>
+                </div>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <h2 class="mb-4 text-xl font-bold text-gray-800">Shipping Address</h2>
+                <div class="mb-4">
+                    <div class="flex items-center p-4 bg-gray-100 rounded-lg">
+                        <i class="mr-4 text-gray-800 fas fa-map-marker-alt"></i>
+                        <div>
+                            <p class="font-medium text-gray-800">Home</p>
+                            <p class="text-gray-600">Bama road, maiduguri</p>
+                        </div>
+                        <div class="flex items-center ml-auto">
+                            <input type="radio" class="w-5 h-5 text-red-500 form-radio" name="address" value="home">
+                        </div>
+                    </div>
+                    <div class="flex items-center p-4 mt-2 bg-gray-100 rounded-lg">
+                        <i class="mr-4 text-gray-800 fas fa-map-marker-alt"></i>
+                        <div>
+                            <p class="font-medium text-gray-800">Other</p>
+                            <p class="text-gray-600">Bama road, maiduguri</p>
+                        </div>
+                        <div class="flex items-center ml-auto">
+                            <input type="radio" class="w-5 h-5 text-red-500 form-radio" name="address" value="other">
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <button class="w-full px-4 py-2 font-bold text-white bg-red-500 rounded hover:bg-red-600 focus:outline-none focus:shadow-outline">
+                        Add new address
+                    </button>
+                </div>
+                <div class="mt-6">
+                    <button class="w-full px-4 py-2 font-bold text-white bg-red-500 rounded hover:bg-red-600 focus:outline-none focus:shadow-outline">
+                        Apply
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script>
+</body>
+</html>
